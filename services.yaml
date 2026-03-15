@@ -145,6 +145,10 @@
         href: "http://bifrost:8080"
         description: Bifrost
         icon: "si-frontify"
+    - OpenRouter:
+        href: "https://openrouter.ai/activity"
+        description: OpenRouter
+        icon: "si-openrouter"
     - Applications: 
         - Immich:
             href: "http://immich:2283"
