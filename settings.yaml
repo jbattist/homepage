@@ -1,0 +1,31 @@
+---
+title: Homelab
+headerStyle: clean
+background:
+  image: /images/ocean.jpg
+  saturate: 50
+  brightness: 50
+  opacity: 70
+theme: dark
+useEqualHeights: false
+quicklaunch:
+  searchDescriptions: true
+  hideInternetSearch: false
+  showSearchSuggestions: true
+  hideVisitURL: false
+hideVersion: false
+hideErrors: true
+statusStyle: "dot"
+layout:
+  Infrastructure:
+    header: true
+    style: column
+    rowHeight: 40px
+  Arr:
+    header: true
+    style: column
+    rowHeight: 40px
+  AI:
+    header: true
+    style: column
+    rowHeight: 40px
