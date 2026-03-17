@@ -55,6 +55,15 @@
           url: "http://192.168.1.100"
           key: "{{HOMEPAGE_VAR_PIHOLE_PASSWORD}}"
           version: 6
+          
+    - Speedtest:
+        href: "http://speedtest"
+        description: Speedtest CLI
+        icon: "si-speedtest"
+        widget:
+          type: speedtest
+          url: "http://speedtest"
+          key: "{{HOMEPAGE_VAR_SPEEDTEST}}"
 
     - Arcane:
         href: "http://docker:3552"
@@ -70,8 +79,7 @@
         href: "http://docker:5001"
         description: Docker Management
         icon: "si-portainer"
-                  
-
+        
 - Arr:
     - Jellyfin:
         href: "http://jellyfin:8096"
