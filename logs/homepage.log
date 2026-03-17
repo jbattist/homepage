@@ -9588,3 +9588,11 @@ This combination of host and port requires TLS.
 [2026-03-17T14:06:35.748Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/system/info
 [2026-03-17T14:07:01.710Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/stats
 [2026-03-17T14:07:05.442Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/system/info
+[2026-03-17T14:07:10.680Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/alert/list
+[2026-03-17T14:07:18.470Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool/dataset
+[2026-03-17T14:07:31.738Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Sessions?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T14:07:37.982Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/filters
+[2026-03-17T14:08:00.614Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/filters
+[2026-03-17T14:08:02.942Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool
+[2026-03-17T14:08:06.710Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/indexers
+[2026-03-17T14:08:11.741Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Items/Counts?api_key={{HOMEPAGE_VAR_JELLYFIN}}
