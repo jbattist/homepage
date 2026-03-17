@@ -82,15 +82,6 @@
           url: "http://jellyfin:8096"
           key: "{{HOMEPAGE_VAR_JELLYFIN}}"
           enableBlocks: true
-    - Sonarr:
-        href: "http://sonarr:8989"
-        description: TV Show Management
-        icon: "si-sonarr"
-        widget:
-          type: sonarr
-          url: "http://sonarr:8989"
-          key: "{{HOMEPAGE_VAR_SONARR}}"
-          enableQueue: true
     - Radarr:
         href: "http://radarr:7878"        
         description: Movie Management
@@ -99,6 +90,15 @@
           type: radarr
           url: "http://radarr:7878"
           key: "{{HOMEPAGE_VAR_RADARR}}"
+          enableQueue: true
+    - Sonarr:
+        href: "http://sonarr:8989"
+        description: TV Show Management
+        icon: "si-sonarr"
+        widget:
+          type: sonarr
+          url: "http://sonarr:8989"
+          key: "{{HOMEPAGE_VAR_SONARR}}"
           enableQueue: true
     - Seerr:
         href: "http://seerr:5055"        
@@ -168,7 +168,7 @@
             widget:
                 type: paperlessngx
                 url: "http://paperless:8000"
-                key: "{{HOMEPAGE_VAR_PAPERLESS}}"
+                key: "{{HOMEPAGE_VAR_IMMICH}}"
                 version: 2
         - Homebox:
             href: "http://homebox:7745"
