@@ -5850,3 +5850,3741 @@ This combination of host and port requires TLS.
 [2026-03-15T14:37:55.698Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:3552/api/environments/0/images/counts
 [2026-03-15T14:37:55.706Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:3552/api/environments/0/image-updates/summary
 [2026-03-15T14:37:55.710Z] error: <unifiProxyHandler> HTTP 401 getting data from Unifi endpoint https://192.168.1.1/proxy/network/api/stat/sites. Data: {"error":{"code":401,"message":"Unauthorized"}}
+[2026-03-17T13:25:04.280Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/alert/list
+[2026-03-17T13:25:04.282Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/system/info
+[2026-03-17T13:25:04.282Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool
+[2026-03-17T13:25:04.531Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/nodes/localhost/tasks...
+[2026-03-17T13:25:04.534Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:25:04.534Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/nodes/localhost/tasks?errors=true&limit=100&since=1773667500973
+[2026-03-17T13:25:04.535Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/nodes/localhost/status...
+[2026-03-17T13:25:04.536Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:25:04.536Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/nodes/localhost/status
+[2026-03-17T13:25:04.536Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/status/datastore-usage...
+[2026-03-17T13:25:04.537Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:25:04.537Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/status/datastore-usage
+[2026-03-17T13:25:07.602Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/status/datastore-usage...
+[2026-03-17T13:25:07.603Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:25:07.603Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/status/datastore-usage
+[2026-03-17T13:25:07.604Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/nodes/localhost/tasks...
+[2026-03-17T13:25:07.605Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:25:07.605Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/nodes/localhost/tasks?errors=true&limit=100&since=1773667500973
+[2026-03-17T13:25:07.605Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/nodes/localhost/status...
+[2026-03-17T13:25:07.605Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:25:07.606Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/nodes/localhost/status
+[2026-03-17T13:25:07.991Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 401
+[2026-03-17T13:25:08.038Z] error: <unifiProxyHandler> HTTP 401 getting data from Unifi endpoint https://192.168.1.1/proxy/network/api/stat/sites. Data: {"error":{"code":401,"message":"Unauthorized"}}
+[2026-03-17T13:25:08.049Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:3552/api/environments/0/containers/counts
+[2026-03-17T13:25:08.055Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:3552/api/environments/0/images/counts
+[2026-03-17T13:25:08.060Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:3552/api/environments/0/image-updates/summary
+[2026-03-17T13:25:08.068Z] error: <httpProxy> Error calling http://sonarr:8989/api/v3/wanted/missing...
+[2026-03-17T13:25:08.068Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND sonarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'sonarr'
+  }
+]
+[2026-03-17T13:25:08.075Z] error: <httpProxy> Error calling http://sonarr:8989/api/v3/queue...
+[2026-03-17T13:25:08.076Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND sonarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'sonarr'
+  }
+]
+[2026-03-17T13:25:08.083Z] error: <httpProxy> Error calling http://sonarr:8989/api/v3/series...
+[2026-03-17T13:25:08.084Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND sonarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'sonarr'
+  }
+]
+[2026-03-17T13:25:08.091Z] error: <httpProxy> Error calling http://sonarr:8989/api/v3/queue/details...
+[2026-03-17T13:25:08.091Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND sonarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'sonarr'
+  }
+]
+[2026-03-17T13:25:08.098Z] error: <httpProxy> Error calling http://radarr:7878/api/v3/movie...
+[2026-03-17T13:25:08.098Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND radarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'radarr'
+  }
+]
+[2026-03-17T13:25:08.106Z] error: <httpProxy> Error calling http://radarr:7878/api/v3/queue/status...
+[2026-03-17T13:25:08.107Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND radarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'radarr'
+  }
+]
+[2026-03-17T13:25:08.114Z] error: <httpProxy> Error calling http://radarr:7878/api/v3/queue/details...
+[2026-03-17T13:25:08.114Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND radarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'radarr'
+  }
+]
+[2026-03-17T13:25:08.122Z] error: <httpProxy> Error calling http://seerr:5055/api/v1/request/count...
+[2026-03-17T13:25:08.122Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND seerr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'seerr'
+  }
+]
+[2026-03-17T13:25:08.122Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://seerr:5055/api/v1/request/count
+[2026-03-17T13:25:08.131Z] error: <httpProxy> Error calling http://sabnzbd:7777/api/...
+[2026-03-17T13:25:08.131Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND sabnzbd] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'sabnzbd'
+  }
+]
+[2026-03-17T13:25:08.138Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Sessions?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:25:08.144Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Items/Counts?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:25:08.152Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-17T13:25:08.152Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-17T13:25:08.160Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-17T13:25:08.160Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-17T13:25:08.172Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/users/login...
+[2026-03-17T13:25:08.172Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-17T13:25:08.173Z] error: <homeboxProxyHandler> Unable to login to Homebox API: SyntaxError: "[object Object]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at l (.next/server/pages/api/services/proxy.js:58:56866)
+    at async n (.next/server/pages/api/services/proxy.js:58:58168)
+    at async l (.next/server/pages/api/services/proxy.js:41:18046)
+    at async Module.m (.next/server/pages/api/services/proxy.js:58:29770)
+[2026-03-17T13:25:08.183Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/groups/statistics...
+[2026-03-17T13:25:08.183Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-17T13:25:08.184Z] error: <homeboxProxyHandler> HTTP 500 getting data from Homebox, data: { error: [Object] }
+[2026-03-17T13:25:08.189Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/groups...
+[2026-03-17T13:25:08.190Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-17T13:25:08.190Z] error: <homeboxProxyHandler> HTTP 500 getting data from Homebox, data: { error: [Object] }
+[2026-03-17T13:25:08.197Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/stats
+[2026-03-17T13:25:08.203Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/filters
+[2026-03-17T13:25:08.211Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/indexers
+[2026-03-17T13:25:08.219Z] error: <httpProxy> Error calling http://immich:2283/api/server/version...
+[2026-03-17T13:25:08.220Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND immich] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'immich'
+  }
+]
+[2026-03-17T13:25:08.220Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://immich:2283/api/server/version
+[2026-03-17T13:25:08.228Z] error: <httpProxy> Error calling http://immich:2283/api/server/statistics...
+[2026-03-17T13:25:08.228Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND immich] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'immich'
+  }
+]
+[2026-03-17T13:25:08.228Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://immich:2283/api/server/statistics
+[2026-03-17T13:25:08.238Z] error: <httpProxy> Error calling http://paperless:8000/api/statistics/...
+[2026-03-17T13:25:08.239Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND paperless] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'paperless'
+  }
+]
+[2026-03-17T13:25:08.239Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-17T13:25:10.151Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/alert/list
+[2026-03-17T13:25:10.258Z] error: <httpProxy> Error calling https://192.168.1.2:8006/api2/json/cluster/resources...
+[2026-03-17T13:25:10.258Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-17T13:25:10.259Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://192.168.1.2:8006/api2/json/cluster/resources
+[2026-03-17T13:25:10.259Z] error: <httpProxy> Error calling https://192.168.1.2:8006/api2/json/cluster/resources...
+[2026-03-17T13:25:10.260Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-17T13:25:10.260Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://192.168.1.2:8006/api2/json/cluster/resources
+[2026-03-17T13:25:10.375Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/system/info
+[2026-03-17T13:25:10.567Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool/dataset
+[2026-03-17T13:25:10.568Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool
+[2026-03-17T13:25:12.758Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/system/info
+[2026-03-17T13:25:12.781Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/alert/list
+[2026-03-17T13:25:12.967Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool
+[2026-03-17T13:25:13.137Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/status/datastore-usage...
+[2026-03-17T13:25:13.137Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:25:13.142Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/status/datastore-usage
+[2026-03-17T13:25:13.142Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/nodes/localhost/tasks...
+[2026-03-17T13:25:13.143Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:25:13.143Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/nodes/localhost/tasks?errors=true&limit=100&since=1773667500973
+[2026-03-17T13:25:13.143Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/nodes/localhost/status...
+[2026-03-17T13:25:13.143Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:25:13.143Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/nodes/localhost/status
+[2026-03-17T13:25:13.144Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/status/datastore-usage...
+[2026-03-17T13:25:13.144Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:25:13.144Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/status/datastore-usage
+[2026-03-17T13:25:13.144Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/nodes/localhost/tasks...
+[2026-03-17T13:25:13.145Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:25:13.145Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/nodes/localhost/tasks?errors=true&limit=100&since=1773667500973
+[2026-03-17T13:25:13.145Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/nodes/localhost/status...
+[2026-03-17T13:25:13.145Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:25:13.145Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/nodes/localhost/status
+[2026-03-17T13:25:13.193Z] error: <unifiProxyHandler> HTTP 401 getting data from Unifi endpoint https://192.168.1.1/proxy/network/api/stat/sites. Data: {"error":{"code":401,"message":"Unauthorized"}}
+[2026-03-17T13:25:13.576Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 401
+[2026-03-17T13:25:13.584Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:3552/api/environments/0/containers/counts
+[2026-03-17T13:25:13.590Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:3552/api/environments/0/images/counts
+[2026-03-17T13:25:13.595Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:3552/api/environments/0/image-updates/summary
+[2026-03-17T13:25:13.603Z] error: <httpProxy> Error calling http://sonarr:8989/api/v3/wanted/missing...
+[2026-03-17T13:25:13.604Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND sonarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'sonarr'
+  }
+]
+[2026-03-17T13:25:13.612Z] error: <httpProxy> Error calling http://sonarr:8989/api/v3/queue...
+[2026-03-17T13:25:13.613Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND sonarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'sonarr'
+  }
+]
+[2026-03-17T13:25:13.621Z] error: <httpProxy> Error calling http://sonarr:8989/api/v3/series...
+[2026-03-17T13:25:13.621Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND sonarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'sonarr'
+  }
+]
+[2026-03-17T13:25:13.629Z] error: <httpProxy> Error calling http://sonarr:8989/api/v3/queue/details...
+[2026-03-17T13:25:13.630Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND sonarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'sonarr'
+  }
+]
+[2026-03-17T13:25:13.638Z] error: <httpProxy> Error calling http://radarr:7878/api/v3/movie...
+[2026-03-17T13:25:13.639Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND radarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'radarr'
+  }
+]
+[2026-03-17T13:25:13.648Z] error: <httpProxy> Error calling http://radarr:7878/api/v3/queue/status...
+[2026-03-17T13:25:13.648Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND radarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'radarr'
+  }
+]
+[2026-03-17T13:25:13.657Z] error: <httpProxy> Error calling http://radarr:7878/api/v3/queue/details...
+[2026-03-17T13:25:13.657Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND radarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'radarr'
+  }
+]
+[2026-03-17T13:25:13.665Z] error: <httpProxy> Error calling http://seerr:5055/api/v1/request/count...
+[2026-03-17T13:25:13.666Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND seerr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'seerr'
+  }
+]
+[2026-03-17T13:25:13.666Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://seerr:5055/api/v1/request/count
+[2026-03-17T13:25:13.673Z] error: <httpProxy> Error calling http://sabnzbd:7777/api/...
+[2026-03-17T13:25:13.673Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND sabnzbd] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'sabnzbd'
+  }
+]
+[2026-03-17T13:25:13.683Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/stats
+[2026-03-17T13:25:13.688Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/filters
+[2026-03-17T13:25:13.695Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/indexers
+[2026-03-17T13:25:13.703Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-17T13:25:13.703Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-17T13:25:13.710Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-17T13:25:13.711Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-17T13:25:13.718Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Sessions?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:25:13.724Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Items/Counts?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:25:13.732Z] error: <httpProxy> Error calling http://immich:2283/api/server/version...
+[2026-03-17T13:25:13.733Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND immich] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'immich'
+  }
+]
+[2026-03-17T13:25:13.733Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://immich:2283/api/server/version
+[2026-03-17T13:25:13.741Z] error: <httpProxy> Error calling http://immich:2283/api/server/statistics...
+[2026-03-17T13:25:13.741Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND immich] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'immich'
+  }
+]
+[2026-03-17T13:25:13.741Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://immich:2283/api/server/statistics
+[2026-03-17T13:25:13.751Z] error: <httpProxy> Error calling http://paperless:8000/api/statistics/...
+[2026-03-17T13:25:13.751Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND paperless] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'paperless'
+  }
+]
+[2026-03-17T13:25:13.751Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-17T13:25:13.759Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/users/login...
+[2026-03-17T13:25:13.759Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-17T13:25:13.760Z] error: <homeboxProxyHandler> Unable to login to Homebox API: SyntaxError: "[object Object]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at l (.next/server/pages/api/services/proxy.js:58:56866)
+    at async n (.next/server/pages/api/services/proxy.js:58:58168)
+    at async l (.next/server/pages/api/services/proxy.js:41:18046)
+    at async Module.m (.next/server/pages/api/services/proxy.js:58:29770)
+[2026-03-17T13:25:13.766Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/groups/statistics...
+[2026-03-17T13:25:13.766Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-17T13:25:13.766Z] error: <homeboxProxyHandler> HTTP 500 getting data from Homebox, data: { error: [Object] }
+[2026-03-17T13:25:13.772Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/groups...
+[2026-03-17T13:25:13.773Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-17T13:25:13.773Z] error: <homeboxProxyHandler> HTTP 500 getting data from Homebox, data: { error: [Object] }
+[2026-03-17T13:25:14.587Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/alert/list
+[2026-03-17T13:25:14.588Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/system/info
+[2026-03-17T13:25:14.800Z] error: <httpProxy> Error calling https://192.168.1.2:8006/api2/json/cluster/resources...
+[2026-03-17T13:25:14.801Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-17T13:25:14.801Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://192.168.1.2:8006/api2/json/cluster/resources
+[2026-03-17T13:25:16.253Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool
+[2026-03-17T13:25:16.254Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool/dataset
+[2026-03-17T13:25:18.728Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/indexers
+[2026-03-17T13:25:18.738Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Items/Counts?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:25:22.530Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/alert/list
+[2026-03-17T13:25:22.531Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/system/info
+[2026-03-17T13:25:24.132Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool/dataset
+[2026-03-17T13:25:24.134Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool
+[2026-03-17T13:25:24.820Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/system/info
+[2026-03-17T13:25:24.821Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/alert/list
+[2026-03-17T13:25:25.202Z] error: <httpProxy> Error calling https://192.168.1.2:8006/api2/json/cluster/resources...
+[2026-03-17T13:25:25.203Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-17T13:25:25.203Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://192.168.1.2:8006/api2/json/cluster/resources
+[2026-03-17T13:25:25.248Z] error: <unifiProxyHandler> HTTP 401 getting data from Unifi endpoint https://192.168.1.1/proxy/network/api/stat/sites. Data: {"error":{"code":401,"message":"Unauthorized"}}
+[2026-03-17T13:25:25.330Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/status/datastore-usage...
+[2026-03-17T13:25:25.330Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:25:25.331Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/status/datastore-usage
+[2026-03-17T13:25:25.332Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/nodes/localhost/tasks...
+[2026-03-17T13:25:25.332Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:25:25.332Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/nodes/localhost/tasks?errors=true&limit=100&since=1773667500973
+[2026-03-17T13:25:25.333Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/nodes/localhost/status...
+[2026-03-17T13:25:25.333Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:25:25.333Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/nodes/localhost/status
+[2026-03-17T13:25:25.348Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:3552/api/environments/0/containers/counts
+[2026-03-17T13:25:25.351Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:3552/api/environments/0/images/counts
+[2026-03-17T13:25:25.353Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:3552/api/environments/0/image-updates/summary
+[2026-03-17T13:25:25.366Z] error: <httpProxy> Error calling http://sonarr:8989/api/v3/wanted/missing...
+[2026-03-17T13:25:25.366Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND sonarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'sonarr'
+  }
+]
+[2026-03-17T13:25:25.370Z] error: <httpProxy> Error calling http://sonarr:8989/api/v3/queue...
+[2026-03-17T13:25:25.371Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND sonarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'sonarr'
+  }
+]
+[2026-03-17T13:25:25.374Z] error: <httpProxy> Error calling http://sonarr:8989/api/v3/series...
+[2026-03-17T13:25:25.374Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND sonarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'sonarr'
+  }
+]
+[2026-03-17T13:25:25.384Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/stats
+[2026-03-17T13:25:25.385Z] error: <httpProxy> Error calling http://sonarr:8989/api/v3/queue/details...
+[2026-03-17T13:25:25.386Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND sonarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'sonarr'
+  }
+]
+[2026-03-17T13:25:25.387Z] error: <httpProxy> Error calling http://sabnzbd:7777/api/...
+[2026-03-17T13:25:25.388Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND sabnzbd] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'sabnzbd'
+  }
+]
+[2026-03-17T13:25:25.394Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/filters
+[2026-03-17T13:25:25.396Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/indexers
+[2026-03-17T13:25:25.400Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-17T13:25:25.400Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-17T13:25:25.405Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Sessions?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:25:25.406Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-17T13:25:25.406Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-17T13:25:25.412Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Items/Counts?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:25:25.423Z] error: <httpProxy> Error calling http://immich:2283/api/server/version...
+[2026-03-17T13:25:25.423Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND immich] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'immich'
+  }
+]
+[2026-03-17T13:25:25.423Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://immich:2283/api/server/version
+[2026-03-17T13:25:25.423Z] error: <httpProxy> Error calling http://immich:2283/api/server/statistics...
+[2026-03-17T13:25:25.424Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND immich] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'immich'
+  }
+]
+[2026-03-17T13:25:25.424Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://immich:2283/api/server/statistics
+[2026-03-17T13:25:25.426Z] error: <httpProxy> Error calling http://radarr:7878/api/v3/movie...
+[2026-03-17T13:25:25.426Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND radarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'radarr'
+  }
+]
+[2026-03-17T13:25:25.443Z] error: <httpProxy> Error calling http://radarr:7878/api/v3/queue/status...
+[2026-03-17T13:25:25.443Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND radarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'radarr'
+  }
+]
+[2026-03-17T13:25:25.446Z] error: <httpProxy> Error calling http://radarr:7878/api/v3/queue/details...
+[2026-03-17T13:25:25.446Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND radarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'radarr'
+  }
+]
+[2026-03-17T13:25:25.447Z] error: <httpProxy> Error calling http://seerr:5055/api/v1/request/count...
+[2026-03-17T13:25:25.447Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND seerr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'seerr'
+  }
+]
+[2026-03-17T13:25:25.458Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://seerr:5055/api/v1/request/count
+[2026-03-17T13:25:25.475Z] error: <httpProxy> Error calling http://paperless:8000/api/statistics/...
+[2026-03-17T13:25:25.475Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND paperless] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'paperless'
+  }
+]
+[2026-03-17T13:25:25.475Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-17T13:25:25.476Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/users/login...
+[2026-03-17T13:25:25.476Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-17T13:25:25.477Z] error: <homeboxProxyHandler> Unable to login to Homebox API: SyntaxError: "[object Object]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at l (.next/server/pages/api/services/proxy.js:58:56866)
+    at async n (.next/server/pages/api/services/proxy.js:58:58168)
+    at async l (.next/server/pages/api/services/proxy.js:41:18046)
+    at async Module.m (.next/server/pages/api/services/proxy.js:58:29770)
+[2026-03-17T13:25:25.482Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/groups/statistics...
+[2026-03-17T13:25:25.482Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-17T13:25:25.483Z] error: <homeboxProxyHandler> HTTP 500 getting data from Homebox, data: { error: [Object] }
+[2026-03-17T13:25:25.490Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/groups...
+[2026-03-17T13:25:25.490Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-17T13:25:25.490Z] error: <homeboxProxyHandler> HTTP 500 getting data from Homebox, data: { error: [Object] }
+[2026-03-17T13:25:25.631Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 401
+[2026-03-17T13:25:28.104Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool
+[2026-03-17T13:25:28.105Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool/dataset
+[2026-03-17T13:25:52.586Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/alert/list
+[2026-03-17T13:25:52.588Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/system/info
+[2026-03-17T13:25:52.626Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/status/datastore-usage...
+[2026-03-17T13:25:52.627Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:25:52.627Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/status/datastore-usage
+[2026-03-17T13:25:52.627Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/nodes/localhost/tasks...
+[2026-03-17T13:25:52.628Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:25:52.628Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/nodes/localhost/tasks?errors=true&limit=100&since=1773667500973
+[2026-03-17T13:25:52.628Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/nodes/localhost/status...
+[2026-03-17T13:25:52.629Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:25:52.629Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/nodes/localhost/status
+[2026-03-17T13:25:52.629Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/status/datastore-usage...
+[2026-03-17T13:25:52.629Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:25:52.629Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/status/datastore-usage
+[2026-03-17T13:25:52.630Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/nodes/localhost/tasks...
+[2026-03-17T13:25:52.630Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:25:52.630Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/nodes/localhost/tasks?errors=true&limit=100&since=1773667500973
+[2026-03-17T13:25:52.630Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/nodes/localhost/status...
+[2026-03-17T13:25:52.630Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:25:52.631Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/nodes/localhost/status
+[2026-03-17T13:25:52.631Z] error: <httpProxy> Error calling https://192.168.1.2:8006/api2/json/cluster/resources...
+[2026-03-17T13:25:52.631Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-17T13:25:52.631Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://192.168.1.2:8006/api2/json/cluster/resources
+[2026-03-17T13:25:52.631Z] error: <httpProxy> Error calling https://192.168.1.2:8006/api2/json/cluster/resources...
+[2026-03-17T13:25:52.632Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-17T13:25:52.632Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://192.168.1.2:8006/api2/json/cluster/resources
+[2026-03-17T13:25:52.681Z] error: <unifiProxyHandler> HTTP 401 getting data from Unifi endpoint https://192.168.1.1/proxy/network/api/stat/sites. Data: {"error":{"code":401,"message":"Unauthorized"}}
+[2026-03-17T13:25:52.690Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:3552/api/environments/0/containers/counts
+[2026-03-17T13:25:52.695Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:3552/api/environments/0/images/counts
+[2026-03-17T13:25:52.702Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:3552/api/environments/0/image-updates/summary
+[2026-03-17T13:25:52.711Z] error: <httpProxy> Error calling http://sonarr:8989/api/v3/wanted/missing...
+[2026-03-17T13:25:52.711Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND sonarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'sonarr'
+  }
+]
+[2026-03-17T13:25:52.723Z] error: <httpProxy> Error calling http://sonarr:8989/api/v3/queue...
+[2026-03-17T13:25:52.723Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND sonarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'sonarr'
+  }
+]
+[2026-03-17T13:25:52.732Z] error: <httpProxy> Error calling http://sonarr:8989/api/v3/series...
+[2026-03-17T13:25:52.733Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND sonarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'sonarr'
+  }
+]
+[2026-03-17T13:25:52.743Z] error: <httpProxy> Error calling http://sonarr:8989/api/v3/queue/details...
+[2026-03-17T13:25:52.743Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND sonarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'sonarr'
+  }
+]
+[2026-03-17T13:25:52.753Z] error: <httpProxy> Error calling http://radarr:7878/api/v3/movie...
+[2026-03-17T13:25:52.753Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND radarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'radarr'
+  }
+]
+[2026-03-17T13:25:52.767Z] error: <httpProxy> Error calling http://radarr:7878/api/v3/queue/status...
+[2026-03-17T13:25:52.767Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND radarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'radarr'
+  }
+]
+[2026-03-17T13:25:52.779Z] error: <httpProxy> Error calling http://radarr:7878/api/v3/queue/details...
+[2026-03-17T13:25:52.779Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND radarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'radarr'
+  }
+]
+[2026-03-17T13:25:52.788Z] error: <httpProxy> Error calling http://seerr:5055/api/v1/request/count...
+[2026-03-17T13:25:52.788Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND seerr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'seerr'
+  }
+]
+[2026-03-17T13:25:52.788Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://seerr:5055/api/v1/request/count
+[2026-03-17T13:25:52.795Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Sessions?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:25:52.801Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Items/Counts?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:25:52.809Z] error: <httpProxy> Error calling http://sabnzbd:7777/api/...
+[2026-03-17T13:25:52.809Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND sabnzbd] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'sabnzbd'
+  }
+]
+[2026-03-17T13:25:52.815Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/stats
+[2026-03-17T13:25:52.820Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/filters
+[2026-03-17T13:25:52.824Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/indexers
+[2026-03-17T13:25:52.833Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-17T13:25:52.833Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-17T13:25:52.841Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-17T13:25:52.841Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-17T13:25:52.848Z] error: <httpProxy> Error calling http://immich:2283/api/server/version...
+[2026-03-17T13:25:52.849Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND immich] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'immich'
+  }
+]
+[2026-03-17T13:25:52.849Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://immich:2283/api/server/version
+[2026-03-17T13:25:52.856Z] error: <httpProxy> Error calling http://immich:2283/api/server/statistics...
+[2026-03-17T13:25:52.857Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND immich] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'immich'
+  }
+]
+[2026-03-17T13:25:52.857Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://immich:2283/api/server/statistics
+[2026-03-17T13:25:52.865Z] error: <httpProxy> Error calling http://paperless:8000/api/statistics/...
+[2026-03-17T13:25:52.865Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND paperless] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'paperless'
+  }
+]
+[2026-03-17T13:25:52.866Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-17T13:25:52.873Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/users/login...
+[2026-03-17T13:25:52.873Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-17T13:25:52.874Z] error: <homeboxProxyHandler> Unable to login to Homebox API: SyntaxError: "[object Object]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at l (.next/server/pages/api/services/proxy.js:58:56866)
+    at async n (.next/server/pages/api/services/proxy.js:58:58168)
+    at async l (.next/server/pages/api/services/proxy.js:41:18046)
+    at async Module.m (.next/server/pages/api/services/proxy.js:58:29770)
+[2026-03-17T13:25:52.879Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/groups/statistics...
+[2026-03-17T13:25:52.880Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-17T13:25:52.880Z] error: <homeboxProxyHandler> HTTP 500 getting data from Homebox, data: { error: [Object] }
+[2026-03-17T13:25:52.885Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/groups...
+[2026-03-17T13:25:52.885Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-17T13:25:52.885Z] error: <homeboxProxyHandler> HTTP 500 getting data from Homebox, data: { error: [Object] }
+[2026-03-17T13:25:53.027Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 401
+[2026-03-17T13:25:53.362Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/alert/list
+[2026-03-17T13:25:53.363Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/system/info
+[2026-03-17T13:25:55.096Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool/dataset
+[2026-03-17T13:25:55.097Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool
+[2026-03-17T13:25:57.175Z] error: <httpProxy> Error calling https://192.168.1.2:8006/api2/json/cluster/resources...
+[2026-03-17T13:25:57.175Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-17T13:25:57.175Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://192.168.1.2:8006/api2/json/cluster/resources
+[2026-03-17T13:25:57.200Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/status/datastore-usage...
+[2026-03-17T13:25:57.200Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:25:57.200Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/status/datastore-usage
+[2026-03-17T13:25:57.201Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/nodes/localhost/tasks...
+[2026-03-17T13:25:57.201Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:25:57.201Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/nodes/localhost/tasks?errors=true&limit=100&since=1773667500973
+[2026-03-17T13:25:57.201Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/nodes/localhost/status...
+[2026-03-17T13:25:57.202Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:25:57.202Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/nodes/localhost/status
+[2026-03-17T13:25:57.248Z] error: <unifiProxyHandler> HTTP 401 getting data from Unifi endpoint https://192.168.1.1/proxy/network/api/stat/sites. Data: {"error":{"code":401,"message":"Unauthorized"}}
+[2026-03-17T13:25:57.257Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:3552/api/environments/0/containers/counts
+[2026-03-17T13:25:57.262Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:3552/api/environments/0/images/counts
+[2026-03-17T13:25:57.268Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:3552/api/environments/0/image-updates/summary
+[2026-03-17T13:25:57.277Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Sessions?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:25:57.283Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Items/Counts?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:25:57.292Z] error: <httpProxy> Error calling http://sonarr:8989/api/v3/wanted/missing...
+[2026-03-17T13:25:57.292Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND sonarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'sonarr'
+  }
+]
+[2026-03-17T13:25:57.301Z] error: <httpProxy> Error calling http://sonarr:8989/api/v3/queue...
+[2026-03-17T13:25:57.301Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND sonarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'sonarr'
+  }
+]
+[2026-03-17T13:25:57.310Z] error: <httpProxy> Error calling http://sonarr:8989/api/v3/series...
+[2026-03-17T13:25:57.310Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND sonarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'sonarr'
+  }
+]
+[2026-03-17T13:25:57.320Z] error: <httpProxy> Error calling http://sonarr:8989/api/v3/queue/details...
+[2026-03-17T13:25:57.320Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND sonarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'sonarr'
+  }
+]
+[2026-03-17T13:25:57.330Z] error: <httpProxy> Error calling http://radarr:7878/api/v3/movie...
+[2026-03-17T13:25:57.330Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND radarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'radarr'
+  }
+]
+[2026-03-17T13:25:57.338Z] error: <httpProxy> Error calling http://radarr:7878/api/v3/queue/status...
+[2026-03-17T13:25:57.338Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND radarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'radarr'
+  }
+]
+[2026-03-17T13:25:57.346Z] error: <httpProxy> Error calling http://radarr:7878/api/v3/queue/details...
+[2026-03-17T13:25:57.347Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND radarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'radarr'
+  }
+]
+[2026-03-17T13:25:57.358Z] error: <httpProxy> Error calling http://seerr:5055/api/v1/request/count...
+[2026-03-17T13:25:57.358Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND seerr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'seerr'
+  }
+]
+[2026-03-17T13:25:57.358Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://seerr:5055/api/v1/request/count
+[2026-03-17T13:25:57.367Z] error: <httpProxy> Error calling http://sabnzbd:7777/api/...
+[2026-03-17T13:25:57.367Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND sabnzbd] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'sabnzbd'
+  }
+]
+[2026-03-17T13:25:57.372Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/stats
+[2026-03-17T13:25:57.377Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/filters
+[2026-03-17T13:25:57.382Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/indexers
+[2026-03-17T13:25:57.390Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-17T13:25:57.391Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-17T13:25:57.399Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-17T13:25:57.400Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-17T13:25:57.408Z] error: <httpProxy> Error calling http://immich:2283/api/server/version...
+[2026-03-17T13:25:57.408Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND immich] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'immich'
+  }
+]
+[2026-03-17T13:25:57.408Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://immich:2283/api/server/version
+[2026-03-17T13:25:57.416Z] error: <httpProxy> Error calling http://immich:2283/api/server/statistics...
+[2026-03-17T13:25:57.417Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND immich] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'immich'
+  }
+]
+[2026-03-17T13:25:57.417Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://immich:2283/api/server/statistics
+[2026-03-17T13:25:57.425Z] error: <httpProxy> Error calling http://paperless:8000/api/statistics/...
+[2026-03-17T13:25:57.425Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND paperless] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'paperless'
+  }
+]
+[2026-03-17T13:25:57.426Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-17T13:25:57.437Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/users/login...
+[2026-03-17T13:25:57.437Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-17T13:25:57.438Z] error: <homeboxProxyHandler> Unable to login to Homebox API: SyntaxError: "[object Object]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at l (.next/server/pages/api/services/proxy.js:58:56866)
+    at async n (.next/server/pages/api/services/proxy.js:58:58168)
+    at async l (.next/server/pages/api/services/proxy.js:41:18046)
+    at async Module.m (.next/server/pages/api/services/proxy.js:58:29770)
+[2026-03-17T13:25:57.443Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/groups/statistics...
+[2026-03-17T13:25:57.443Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-17T13:25:57.443Z] error: <homeboxProxyHandler> HTTP 500 getting data from Homebox, data: { error: [Object] }
+[2026-03-17T13:25:57.448Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/groups...
+[2026-03-17T13:25:57.448Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-17T13:25:57.448Z] error: <homeboxProxyHandler> HTTP 500 getting data from Homebox, data: { error: [Object] }
+[2026-03-17T13:25:57.516Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/alert/list
+[2026-03-17T13:25:57.516Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/system/info
+[2026-03-17T13:25:57.523Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 401
+[2026-03-17T13:25:59.649Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool
+[2026-03-17T13:25:59.675Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool/dataset
+[2026-03-17T13:26:03.326Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/alert/list
+[2026-03-17T13:26:03.327Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/system/info
+[2026-03-17T13:26:03.506Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/status/datastore-usage...
+[2026-03-17T13:26:03.507Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:26:03.507Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/status/datastore-usage
+[2026-03-17T13:26:03.507Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/nodes/localhost/tasks...
+[2026-03-17T13:26:03.508Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:26:03.508Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/nodes/localhost/tasks?errors=true&limit=100&since=1773667500973
+[2026-03-17T13:26:03.508Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/nodes/localhost/status...
+[2026-03-17T13:26:03.509Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:26:03.509Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/nodes/localhost/status
+[2026-03-17T13:26:03.509Z] error: <httpProxy> Error calling https://192.168.1.2:8006/api2/json/cluster/resources...
+[2026-03-17T13:26:03.509Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-17T13:26:03.509Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://192.168.1.2:8006/api2/json/cluster/resources
+[2026-03-17T13:27:38.953Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/alert/list
+[2026-03-17T13:27:38.960Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/system/info
+[2026-03-17T13:27:39.600Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/status/datastore-usage...
+[2026-03-17T13:27:39.601Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:27:39.601Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/status/datastore-usage
+[2026-03-17T13:27:39.602Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/nodes/localhost/tasks...
+[2026-03-17T13:27:39.602Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:27:39.602Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/nodes/localhost/tasks?errors=true&limit=100&since=1773667500973
+[2026-03-17T13:27:39.602Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/nodes/localhost/status...
+[2026-03-17T13:27:39.603Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:27:39.603Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/nodes/localhost/status
+[2026-03-17T13:27:39.603Z] error: <httpProxy> Error calling https://192.168.1.2:8006/api2/json/cluster/resources...
+[2026-03-17T13:27:39.603Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-17T13:27:39.603Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://192.168.1.2:8006/api2/json/cluster/resources
+[2026-03-17T13:27:39.620Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:3552/api/environments/0/containers/counts
+[2026-03-17T13:27:39.622Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:3552/api/environments/0/images/counts
+[2026-03-17T13:27:39.628Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:3552/api/environments/0/image-updates/summary
+[2026-03-17T13:27:39.656Z] error: <unifiProxyHandler> HTTP 401 getting data from Unifi endpoint https://192.168.1.1/proxy/network/api/stat/sites. Data: {"error":{"code":401,"message":"Unauthorized"}}
+[2026-03-17T13:27:39.718Z] error: <httpProxy> Error calling http://radarr:7878/api/v3/movie...
+[2026-03-17T13:27:39.718Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND radarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'radarr'
+  }
+]
+[2026-03-17T13:27:39.721Z] error: <httpProxy> Error calling http://radarr:7878/api/v3/queue/status...
+[2026-03-17T13:27:39.721Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND radarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'radarr'
+  }
+]
+[2026-03-17T13:27:39.732Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Items/Counts?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:27:39.733Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Sessions?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:27:39.737Z] error: <httpProxy> Error calling http://radarr:7878/api/v3/queue/details...
+[2026-03-17T13:27:39.737Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND radarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'radarr'
+  }
+]
+[2026-03-17T13:27:39.750Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/users/login...
+[2026-03-17T13:27:39.750Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-17T13:27:39.751Z] error: <httpProxy> Error calling http://seerr:5055/api/v1/request/count...
+[2026-03-17T13:27:39.751Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND seerr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'seerr'
+  }
+]
+[2026-03-17T13:27:39.751Z] error: <homeboxProxyHandler> Unable to login to Homebox API: SyntaxError: "[object Object]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at l (.next/server/pages/api/services/proxy.js:58:56866)
+    at async n (.next/server/pages/api/services/proxy.js:58:58168)
+    at async l (.next/server/pages/api/services/proxy.js:41:18046)
+    at async Module.m (.next/server/pages/api/services/proxy.js:58:29770)
+[2026-03-17T13:27:39.752Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://seerr:5055/api/v1/request/count
+[2026-03-17T13:27:39.759Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/groups/statistics...
+[2026-03-17T13:27:39.759Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-17T13:27:39.760Z] error: <homeboxProxyHandler> HTTP 500 getting data from Homebox, data: { error: [Object] }
+[2026-03-17T13:27:39.760Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/stats
+[2026-03-17T13:27:39.764Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/filters
+[2026-03-17T13:27:39.768Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/groups...
+[2026-03-17T13:27:39.768Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-17T13:27:39.768Z] error: <homeboxProxyHandler> HTTP 500 getting data from Homebox, data: { error: [Object] }
+[2026-03-17T13:27:39.772Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/indexers
+[2026-03-17T13:27:39.778Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-17T13:27:39.778Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-17T13:27:39.785Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-17T13:27:39.785Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-17T13:27:39.793Z] error: <httpProxy> Error calling http://immich:2283/api/server/version...
+[2026-03-17T13:27:39.794Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND immich] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'immich'
+  }
+]
+[2026-03-17T13:27:39.794Z] error: <httpProxy> Error calling http://immich:2283/api/server/statistics...
+[2026-03-17T13:27:39.794Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND immich] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'immich'
+  }
+]
+[2026-03-17T13:27:39.794Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://immich:2283/api/server/version
+[2026-03-17T13:27:39.794Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://immich:2283/api/server/statistics
+[2026-03-17T13:27:39.810Z] error: <httpProxy> Error calling http://paperless:8000/api/statistics/...
+[2026-03-17T13:27:39.810Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND paperless] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'paperless'
+  }
+]
+[2026-03-17T13:27:39.811Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-17T13:27:39.925Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 401
+[2026-03-17T13:27:41.989Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool
+[2026-03-17T13:27:41.990Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool/dataset
+[2026-03-17T13:27:47.395Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/system/info
+[2026-03-17T13:27:51.317Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/alert/list
+[2026-03-17T13:27:58.912Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/alert/list
+[2026-03-17T13:27:58.912Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/system/info
+[2026-03-17T13:27:59.153Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/status/datastore-usage...
+[2026-03-17T13:27:59.154Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:27:59.155Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/status/datastore-usage
+[2026-03-17T13:27:59.155Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/nodes/localhost/tasks...
+[2026-03-17T13:27:59.155Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:27:59.156Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/nodes/localhost/tasks?errors=true&limit=100&since=1773667500973
+[2026-03-17T13:27:59.156Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/nodes/localhost/status...
+[2026-03-17T13:27:59.156Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:27:59.157Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/nodes/localhost/status
+[2026-03-17T13:27:59.157Z] error: <httpProxy> Error calling https://192.168.1.2:8006/api2/json/cluster/resources...
+[2026-03-17T13:27:59.157Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-17T13:27:59.157Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://192.168.1.2:8006/api2/json/cluster/resources
+[2026-03-17T13:27:59.177Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:3552/api/environments/0/containers/counts
+[2026-03-17T13:27:59.180Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:3552/api/environments/0/images/counts
+[2026-03-17T13:27:59.185Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:3552/api/environments/0/image-updates/summary
+[2026-03-17T13:27:59.207Z] error: <unifiProxyHandler> HTTP 401 getting data from Unifi endpoint https://192.168.1.1/proxy/network/api/stat/sites. Data: {"error":{"code":401,"message":"Unauthorized"}}
+[2026-03-17T13:27:59.220Z] error: <httpProxy> Error calling http://radarr:7878/api/v3/movie...
+[2026-03-17T13:27:59.221Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND radarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'radarr'
+  }
+]
+[2026-03-17T13:27:59.223Z] error: <httpProxy> Error calling http://radarr:7878/api/v3/queue/status...
+[2026-03-17T13:27:59.223Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND radarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'radarr'
+  }
+]
+[2026-03-17T13:27:59.225Z] error: <httpProxy> Error calling http://radarr:7878/api/v3/queue/details...
+[2026-03-17T13:27:59.225Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND radarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'radarr'
+  }
+]
+[2026-03-17T13:27:59.232Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Sessions?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:27:59.235Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Items/Counts?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:27:59.249Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/users/login...
+[2026-03-17T13:27:59.250Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-17T13:27:59.250Z] error: <homeboxProxyHandler> Unable to login to Homebox API: SyntaxError: "[object Object]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at l (.next/server/pages/api/services/proxy.js:58:56866)
+    at async n (.next/server/pages/api/services/proxy.js:58:58168)
+    at async l (.next/server/pages/api/services/proxy.js:41:18046)
+    at async Module.m (.next/server/pages/api/services/proxy.js:58:29770)
+[2026-03-17T13:27:59.252Z] error: <httpProxy> Error calling http://seerr:5055/api/v1/request/count...
+[2026-03-17T13:27:59.253Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND seerr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'seerr'
+  }
+]
+[2026-03-17T13:27:59.253Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://seerr:5055/api/v1/request/count
+[2026-03-17T13:27:59.259Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/stats
+[2026-03-17T13:27:59.265Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/groups/statistics...
+[2026-03-17T13:27:59.265Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-17T13:27:59.265Z] error: <homeboxProxyHandler> HTTP 500 getting data from Homebox, data: { error: [Object] }
+[2026-03-17T13:27:59.269Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/filters
+[2026-03-17T13:27:59.270Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/indexers
+[2026-03-17T13:27:59.278Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/groups...
+[2026-03-17T13:27:59.278Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-17T13:27:59.279Z] error: <homeboxProxyHandler> HTTP 500 getting data from Homebox, data: { error: [Object] }
+[2026-03-17T13:27:59.290Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-17T13:27:59.290Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-17T13:27:59.293Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-17T13:27:59.293Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-17T13:27:59.308Z] error: <httpProxy> Error calling http://immich:2283/api/server/version...
+[2026-03-17T13:27:59.308Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND immich] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'immich'
+  }
+]
+[2026-03-17T13:27:59.308Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://immich:2283/api/server/version
+[2026-03-17T13:27:59.317Z] error: <httpProxy> Error calling http://immich:2283/api/server/statistics...
+[2026-03-17T13:27:59.317Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND immich] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'immich'
+  }
+]
+[2026-03-17T13:27:59.317Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://immich:2283/api/server/statistics
+[2026-03-17T13:27:59.318Z] error: <httpProxy> Error calling http://paperless:8000/api/statistics/...
+[2026-03-17T13:27:59.318Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND paperless] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'paperless'
+  }
+]
+[2026-03-17T13:27:59.318Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-17T13:27:59.551Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 401
+[2026-03-17T13:28:01.333Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool/dataset
+[2026-03-17T13:28:01.335Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool
+[2026-03-17T13:28:09.752Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool/dataset
+[2026-03-17T13:28:13.532Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool
+[2026-03-17T13:29:16.158Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/alert/list
+[2026-03-17T13:29:16.161Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/system/info
+[2026-03-17T13:29:16.464Z] error: <httpProxy> Error calling https://192.168.1.2:8006/api2/json/cluster/resources...
+[2026-03-17T13:29:16.465Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-17T13:29:16.465Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://192.168.1.2:8006/api2/json/cluster/resources
+[2026-03-17T13:29:16.496Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/status/datastore-usage...
+[2026-03-17T13:29:16.496Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:29:16.497Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/status/datastore-usage
+[2026-03-17T13:29:16.497Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/nodes/localhost/tasks...
+[2026-03-17T13:29:16.497Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:29:16.497Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/nodes/localhost/tasks?errors=true&limit=100&since=1773667500973
+[2026-03-17T13:29:16.498Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/nodes/localhost/status...
+[2026-03-17T13:29:16.498Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:29:16.498Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/nodes/localhost/status
+[2026-03-17T13:29:16.513Z] error: <unifiProxyHandler> HTTP 401 getting data from Unifi endpoint https://192.168.1.1/proxy/network/api/stat/sites. Data: {"error":{"code":401,"message":"Unauthorized"}}
+[2026-03-17T13:29:16.518Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:3552/api/environments/0/containers/counts
+[2026-03-17T13:29:16.525Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:3552/api/environments/0/images/counts
+[2026-03-17T13:29:16.525Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:3552/api/environments/0/image-updates/summary
+[2026-03-17T13:29:16.571Z] error: <httpProxy> Error calling http://radarr:7878/api/v3/movie...
+[2026-03-17T13:29:16.571Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND radarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'radarr'
+  }
+]
+[2026-03-17T13:29:16.577Z] error: <httpProxy> Error calling http://radarr:7878/api/v3/queue/status...
+[2026-03-17T13:29:16.577Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND radarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'radarr'
+  }
+]
+[2026-03-17T13:29:16.578Z] error: <httpProxy> Error calling http://radarr:7878/api/v3/queue/details...
+[2026-03-17T13:29:16.579Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND radarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'radarr'
+  }
+]
+[2026-03-17T13:29:16.592Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Sessions?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:29:16.596Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Items/Counts?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:29:16.613Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/users/login...
+[2026-03-17T13:29:16.614Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-17T13:29:16.614Z] error: <homeboxProxyHandler> Unable to login to Homebox API: SyntaxError: "[object Object]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at l (.next/server/pages/api/services/proxy.js:58:56866)
+    at async n (.next/server/pages/api/services/proxy.js:58:58168)
+    at async l (.next/server/pages/api/services/proxy.js:41:18046)
+    at async Module.m (.next/server/pages/api/services/proxy.js:58:29770)
+[2026-03-17T13:29:16.620Z] error: <httpProxy> Error calling http://seerr:5055/api/v1/request/count...
+[2026-03-17T13:29:16.620Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND seerr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'seerr'
+  }
+]
+[2026-03-17T13:29:16.620Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://seerr:5055/api/v1/request/count
+[2026-03-17T13:29:16.623Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/stats
+[2026-03-17T13:29:16.625Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/groups/statistics...
+[2026-03-17T13:29:16.625Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-17T13:29:16.625Z] error: <homeboxProxyHandler> HTTP 500 getting data from Homebox, data: { error: [Object] }
+[2026-03-17T13:29:16.630Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/filters
+[2026-03-17T13:29:16.633Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/groups...
+[2026-03-17T13:29:16.633Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-17T13:29:16.633Z] error: <homeboxProxyHandler> HTTP 500 getting data from Homebox, data: { error: [Object] }
+[2026-03-17T13:29:16.636Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/indexers
+[2026-03-17T13:29:16.646Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-17T13:29:16.646Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-17T13:29:16.647Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-17T13:29:16.647Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-17T13:29:16.647Z] error: <httpProxy> Error calling http://immich:2283/api/server/version...
+[2026-03-17T13:29:16.651Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND immich] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'immich'
+  }
+]
+[2026-03-17T13:29:16.651Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://immich:2283/api/server/version
+[2026-03-17T13:29:16.666Z] error: <httpProxy> Error calling http://immich:2283/api/server/statistics...
+[2026-03-17T13:29:16.667Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND immich] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'immich'
+  }
+]
+[2026-03-17T13:29:16.667Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://immich:2283/api/server/statistics
+[2026-03-17T13:29:16.668Z] error: <httpProxy> Error calling http://paperless:8000/api/statistics/...
+[2026-03-17T13:29:16.668Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND paperless] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'paperless'
+  }
+]
+[2026-03-17T13:29:16.668Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-17T13:29:16.890Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 401
+[2026-03-17T13:29:18.653Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool/dataset
+[2026-03-17T13:29:18.654Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool
+[2026-03-17T13:30:47.280Z] error: <httpProxy> Error calling https://192.168.1.2:8006/api2/json/cluster/resources...
+[2026-03-17T13:30:47.281Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-17T13:30:47.281Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://192.168.1.2:8006/api2/json/cluster/resources
+[2026-03-17T13:30:47.282Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/status/datastore-usage...
+[2026-03-17T13:30:47.282Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:30:47.282Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/status/datastore-usage
+[2026-03-17T13:30:47.282Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/nodes/localhost/tasks...
+[2026-03-17T13:30:47.283Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:30:47.283Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/nodes/localhost/tasks?errors=true&limit=100&since=1773667500973
+[2026-03-17T13:30:47.283Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/nodes/localhost/status...
+[2026-03-17T13:30:47.284Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:30:47.284Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/nodes/localhost/status
+[2026-03-17T13:30:47.335Z] error: <unifiProxyHandler> HTTP 401 getting data from Unifi endpoint https://192.168.1.1/proxy/network/api/stat/sites. Data: {"error":{"code":401,"message":"Unauthorized"}}
+[2026-03-17T13:30:47.347Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:3552/api/environments/0/containers/counts
+[2026-03-17T13:30:47.358Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:3552/api/environments/0/images/counts
+[2026-03-17T13:30:47.367Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:3552/api/environments/0/image-updates/summary
+[2026-03-17T13:30:47.484Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/system/info
+[2026-03-17T13:30:47.491Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/alert/list
+[2026-03-17T13:30:47.504Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Sessions?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:30:47.509Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Items/Counts?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:30:47.514Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/users/login...
+[2026-03-17T13:30:47.515Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-17T13:30:47.515Z] error: <homeboxProxyHandler> Unable to login to Homebox API: SyntaxError: "[object Object]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at l (.next/server/pages/api/services/proxy.js:58:56866)
+    at async n (.next/server/pages/api/services/proxy.js:58:58168)
+    at async l (.next/server/pages/api/services/proxy.js:41:18046)
+    at async Module.m (.next/server/pages/api/services/proxy.js:58:29770)
+[2026-03-17T13:30:47.522Z] error: <httpProxy> Error calling http://seerr:5055/api/v1/request/count...
+[2026-03-17T13:30:47.523Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND seerr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'seerr'
+  }
+]
+[2026-03-17T13:30:47.523Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://seerr:5055/api/v1/request/count
+[2026-03-17T13:30:47.528Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/groups/statistics...
+[2026-03-17T13:30:47.528Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-17T13:30:47.529Z] error: <homeboxProxyHandler> HTTP 500 getting data from Homebox, data: { error: [Object] }
+[2026-03-17T13:30:47.537Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/stats
+[2026-03-17T13:30:47.543Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/groups...
+[2026-03-17T13:30:47.544Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-17T13:30:47.544Z] error: <homeboxProxyHandler> HTTP 500 getting data from Homebox, data: { error: [Object] }
+[2026-03-17T13:30:47.545Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/filters
+[2026-03-17T13:30:47.582Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/indexers
+[2026-03-17T13:30:47.589Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-17T13:30:47.589Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-17T13:30:47.594Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-17T13:30:47.595Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-17T13:30:47.602Z] error: <httpProxy> Error calling http://immich:2283/api/server/version...
+[2026-03-17T13:30:47.602Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND immich] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'immich'
+  }
+]
+[2026-03-17T13:30:47.602Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://immich:2283/api/server/version
+[2026-03-17T13:30:47.613Z] error: <httpProxy> Error calling http://immich:2283/api/server/statistics...
+[2026-03-17T13:30:47.613Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND immich] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'immich'
+  }
+]
+[2026-03-17T13:30:47.614Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://immich:2283/api/server/statistics
+[2026-03-17T13:30:47.621Z] error: <httpProxy> Error calling http://paperless:8000/api/statistics/...
+[2026-03-17T13:30:47.621Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND paperless] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'paperless'
+  }
+]
+[2026-03-17T13:30:47.621Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-17T13:30:47.682Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 401
+[2026-03-17T13:30:49.635Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool
+[2026-03-17T13:30:49.637Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool/dataset
+[2026-03-17T13:30:53.618Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Items/Counts?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:30:53.620Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/indexers
+[2026-03-17T13:30:55.547Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/alert/list
+[2026-03-17T13:30:55.554Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/system/info
+[2026-03-17T13:30:58.173Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Sessions?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:30:58.177Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/stats
+[2026-03-17T13:30:58.180Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/filters
+[2026-03-17T13:52:06.228Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:3552/api/environments/0/containers/counts
+[2026-03-17T13:52:06.288Z] error: <unifiProxyHandler> HTTP 401 getting data from Unifi endpoint https://192.168.1.1/proxy/network/api/stat/sites. Data: {"error":{"code":401,"message":"Unauthorized"}}
+[2026-03-17T13:52:06.603Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 401
+[2026-03-17T13:52:09.138Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/system/info
+[2026-03-17T13:52:09.144Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/alert/list
+[2026-03-17T13:52:09.162Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool
+[2026-03-17T13:52:09.164Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool/dataset
+[2026-03-17T13:52:09.172Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:3552/api/environments/0/images/counts
+[2026-03-17T13:52:09.176Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:3552/api/environments/0/image-updates/summary
+[2026-03-17T13:52:09.232Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Sessions?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:52:09.236Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Items/Counts?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:52:09.248Z] error: <httpProxy> Error calling http://seerr:5055/api/v1/request/count...
+[2026-03-17T13:52:09.249Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND seerr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'seerr'
+  }
+]
+[2026-03-17T13:52:09.249Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://seerr:5055/api/v1/request/count
+[2026-03-17T13:52:09.252Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/stats
+[2026-03-17T13:52:09.255Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/filters
+[2026-03-17T13:52:09.263Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/indexers
+[2026-03-17T13:52:09.264Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/nodes/localhost/tasks...
+[2026-03-17T13:52:09.264Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:52:09.264Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/nodes/localhost/tasks?errors=true&limit=100&since=1773667500973
+[2026-03-17T13:52:09.264Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/nodes/localhost/status...
+[2026-03-17T13:52:09.265Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:52:09.265Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/nodes/localhost/status
+[2026-03-17T13:52:09.265Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/status/datastore-usage...
+[2026-03-17T13:52:09.265Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:52:09.266Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/status/datastore-usage
+[2026-03-17T13:52:09.273Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-17T13:52:09.274Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-17T13:52:09.289Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-17T13:52:09.289Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-17T13:52:09.294Z] error: <httpProxy> Error calling http://immich:2283/api/server/version...
+[2026-03-17T13:52:09.295Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND immich] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'immich'
+  }
+]
+[2026-03-17T13:52:09.295Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://immich:2283/api/server/version
+[2026-03-17T13:52:09.298Z] error: <httpProxy> Error calling http://immich:2283/api/server/statistics...
+[2026-03-17T13:52:09.299Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND immich] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'immich'
+  }
+]
+[2026-03-17T13:52:09.299Z] error: <httpProxy> Error calling http://paperless:8000/api/statistics/...
+[2026-03-17T13:52:09.299Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND paperless] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'paperless'
+  }
+]
+[2026-03-17T13:52:09.299Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://immich:2283/api/server/statistics
+[2026-03-17T13:52:09.300Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-17T13:52:09.301Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/users/login...
+[2026-03-17T13:52:09.301Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-17T13:52:09.302Z] error: <homeboxProxyHandler> Unable to login to Homebox API: SyntaxError: "[object Object]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at l (.next/server/pages/api/services/proxy.js:58:56866)
+    at async n (.next/server/pages/api/services/proxy.js:58:58168)
+    at async l (.next/server/pages/api/services/proxy.js:41:18046)
+    at async Module.m (.next/server/pages/api/services/proxy.js:58:29770)
+[2026-03-17T13:52:09.308Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/groups/statistics...
+[2026-03-17T13:52:09.308Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-17T13:52:09.308Z] error: <homeboxProxyHandler> HTTP 500 getting data from Homebox, data: { error: [Object] }
+[2026-03-17T13:52:09.320Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/groups...
+[2026-03-17T13:52:09.321Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-17T13:52:09.321Z] error: <homeboxProxyHandler> HTTP 500 getting data from Homebox, data: { error: [Object] }
+[2026-03-17T13:52:09.810Z] error: <httpProxy> Error calling https://192.168.1.2:8006/api2/json/cluster/resources...
+[2026-03-17T13:52:09.810Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-17T13:52:09.811Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://192.168.1.2:8006/api2/json/cluster/resources
+[2026-03-17T13:53:26.266Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/indexers
+[2026-03-17T13:53:28.472Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/alert/list
+[2026-03-17T13:53:28.473Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/system/info
+[2026-03-17T13:53:29.298Z] error: <httpProxy> Error calling https://192.168.1.2:8006/api2/json/cluster/resources...
+[2026-03-17T13:53:29.298Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-17T13:53:29.299Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://192.168.1.2:8006/api2/json/cluster/resources
+[2026-03-17T13:53:29.329Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/status/datastore-usage...
+[2026-03-17T13:53:29.330Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:53:29.330Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/status/datastore-usage
+[2026-03-17T13:53:29.331Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/nodes/localhost/tasks...
+[2026-03-17T13:53:29.331Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:53:29.331Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/nodes/localhost/tasks?errors=true&limit=100&since=1773667500973
+[2026-03-17T13:53:29.331Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/nodes/localhost/status...
+[2026-03-17T13:53:29.332Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:53:29.332Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/nodes/localhost/status
+[2026-03-17T13:53:29.347Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:3552/api/environments/0/containers/counts
+[2026-03-17T13:53:29.351Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:3552/api/environments/0/images/counts
+[2026-03-17T13:53:29.355Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:3552/api/environments/0/image-updates/summary
+[2026-03-17T13:53:29.360Z] error: <unifiProxyHandler> HTTP 401 getting data from Unifi endpoint https://192.168.1.1/proxy/network/api/stat/sites. Data: {"error":{"code":401,"message":"Unauthorized"}}
+[2026-03-17T13:53:29.375Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-17T13:53:29.375Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-17T13:53:29.377Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-17T13:53:29.377Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-17T13:53:29.408Z] error: <httpProxy> Error calling http://immich:2283/api/server/version...
+[2026-03-17T13:53:29.408Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND immich] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'immich'
+  }
+]
+[2026-03-17T13:53:29.408Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://immich:2283/api/server/version
+[2026-03-17T13:53:29.408Z] error: <httpProxy> Error calling http://immich:2283/api/server/statistics...
+[2026-03-17T13:53:29.408Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND immich] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'immich'
+  }
+]
+[2026-03-17T13:53:29.408Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://immich:2283/api/server/statistics
+[2026-03-17T13:53:29.410Z] error: <httpProxy> Error calling http://paperless:8000/api/statistics/...
+[2026-03-17T13:53:29.411Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND paperless] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'paperless'
+  }
+]
+[2026-03-17T13:53:29.411Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-17T13:53:29.432Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/users/login...
+[2026-03-17T13:53:29.432Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-17T13:53:29.433Z] error: <homeboxProxyHandler> Unable to login to Homebox API: SyntaxError: "[object Object]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at l (.next/server/pages/api/services/proxy.js:58:56866)
+    at async n (.next/server/pages/api/services/proxy.js:58:58168)
+    at async l (.next/server/pages/api/services/proxy.js:41:18046)
+    at async Module.m (.next/server/pages/api/services/proxy.js:58:29770)
+[2026-03-17T13:53:29.444Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/stats
+[2026-03-17T13:53:29.449Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/groups/statistics...
+[2026-03-17T13:53:29.449Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-17T13:53:29.450Z] error: <homeboxProxyHandler> HTTP 500 getting data from Homebox, data: { error: [Object] }
+[2026-03-17T13:53:29.451Z] error: <httpProxy> Error calling http://seerr:5055/api/v1/request/count...
+[2026-03-17T13:53:29.451Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND seerr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'seerr'
+  }
+]
+[2026-03-17T13:53:29.451Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://seerr:5055/api/v1/request/count
+[2026-03-17T13:53:29.454Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/filters
+[2026-03-17T13:53:29.463Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Sessions?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:53:29.466Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/groups...
+[2026-03-17T13:53:29.467Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-17T13:53:29.467Z] error: <homeboxProxyHandler> HTTP 500 getting data from Homebox, data: { error: [Object] }
+[2026-03-17T13:53:29.471Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Items/Counts?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:53:29.714Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 401
+[2026-03-17T13:53:31.271Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool/dataset
+[2026-03-17T13:53:31.272Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool
+[2026-03-17T13:53:52.304Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/system/info
+[2026-03-17T13:53:52.305Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/alert/list
+[2026-03-17T13:53:52.690Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/status/datastore-usage...
+[2026-03-17T13:53:52.691Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:53:52.691Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/status/datastore-usage
+[2026-03-17T13:53:52.691Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/nodes/localhost/tasks...
+[2026-03-17T13:53:52.692Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:53:52.692Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/nodes/localhost/tasks?errors=true&limit=100&since=1773667500973
+[2026-03-17T13:53:52.692Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/nodes/localhost/status...
+[2026-03-17T13:53:52.692Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:53:52.692Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/nodes/localhost/status
+[2026-03-17T13:53:52.693Z] error: <httpProxy> Error calling https://192.168.1.2:8006/api2/json/cluster/resources...
+[2026-03-17T13:53:52.693Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-17T13:53:52.693Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://192.168.1.2:8006/api2/json/cluster/resources
+[2026-03-17T13:53:52.707Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:3552/api/environments/0/containers/counts
+[2026-03-17T13:53:52.710Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:3552/api/environments/0/images/counts
+[2026-03-17T13:53:52.717Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:3552/api/environments/0/image-updates/summary
+[2026-03-17T13:53:52.746Z] error: <unifiProxyHandler> HTTP 401 getting data from Unifi endpoint https://192.168.1.1/proxy/network/api/stat/sites. Data: {"error":{"code":401,"message":"Unauthorized"}}
+[2026-03-17T13:53:52.765Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/stats
+[2026-03-17T13:53:52.768Z] error: <httpProxy> Error calling http://seerr:5055/api/v1/request/count...
+[2026-03-17T13:53:52.768Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND seerr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'seerr'
+  }
+]
+[2026-03-17T13:53:52.768Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://seerr:5055/api/v1/request/count
+[2026-03-17T13:53:52.770Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/filters
+[2026-03-17T13:53:52.772Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/indexers
+[2026-03-17T13:53:52.783Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-17T13:53:52.783Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-17T13:53:52.783Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-17T13:53:52.784Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-17T13:53:52.788Z] error: <httpProxy> Error calling http://immich:2283/api/server/version...
+[2026-03-17T13:53:52.788Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND immich] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'immich'
+  }
+]
+[2026-03-17T13:53:52.788Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://immich:2283/api/server/version
+[2026-03-17T13:53:52.812Z] error: <httpProxy> Error calling http://immich:2283/api/server/statistics...
+[2026-03-17T13:53:52.812Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND immich] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'immich'
+  }
+]
+[2026-03-17T13:53:52.812Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://immich:2283/api/server/statistics
+[2026-03-17T13:53:52.815Z] error: <httpProxy> Error calling http://paperless:8000/api/statistics/...
+[2026-03-17T13:53:52.815Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND paperless] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'paperless'
+  }
+]
+[2026-03-17T13:53:52.815Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-17T13:53:52.822Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/users/login...
+[2026-03-17T13:53:52.822Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-17T13:53:52.823Z] error: <homeboxProxyHandler> Unable to login to Homebox API: SyntaxError: "[object Object]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at l (.next/server/pages/api/services/proxy.js:58:56866)
+    at async n (.next/server/pages/api/services/proxy.js:58:58168)
+    at async l (.next/server/pages/api/services/proxy.js:41:18046)
+    at async Module.m (.next/server/pages/api/services/proxy.js:58:29770)
+[2026-03-17T13:53:52.829Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Sessions?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:53:52.830Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/groups/statistics...
+[2026-03-17T13:53:52.831Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-17T13:53:52.831Z] error: <homeboxProxyHandler> HTTP 500 getting data from Homebox, data: { error: [Object] }
+[2026-03-17T13:53:52.832Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Items/Counts?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:53:52.836Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/groups...
+[2026-03-17T13:53:52.837Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-17T13:53:52.837Z] error: <homeboxProxyHandler> HTTP 500 getting data from Homebox, data: { error: [Object] }
+[2026-03-17T13:53:53.040Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 401
+[2026-03-17T13:53:54.731Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool/dataset
+[2026-03-17T13:53:54.732Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool
+[2026-03-17T13:54:00.932Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/system/info
+[2026-03-17T13:54:00.933Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/alert/list
+[2026-03-17T13:54:01.074Z] error: <httpProxy> Error calling https://192.168.1.2:8006/api2/json/cluster/resources...
+[2026-03-17T13:54:01.074Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-17T13:54:01.074Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://192.168.1.2:8006/api2/json/cluster/resources
+[2026-03-17T13:54:01.105Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/status/datastore-usage...
+[2026-03-17T13:54:01.105Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:54:01.105Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/status/datastore-usage
+[2026-03-17T13:54:01.106Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/nodes/localhost/tasks...
+[2026-03-17T13:54:01.106Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:54:01.106Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/nodes/localhost/tasks?errors=true&limit=100&since=1773667500973
+[2026-03-17T13:54:01.106Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/nodes/localhost/status...
+[2026-03-17T13:54:01.106Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:54:01.106Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/nodes/localhost/status
+[2026-03-17T13:54:01.126Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:3552/api/environments/0/containers/counts
+[2026-03-17T13:54:01.126Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:3552/api/environments/0/images/counts
+[2026-03-17T13:54:01.148Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:3552/api/environments/0/image-updates/summary
+[2026-03-17T13:54:01.234Z] error: <unifiProxyHandler> HTTP 401 getting data from Unifi endpoint https://192.168.1.1/proxy/network/api/stat/sites. Data: {"error":{"code":401,"message":"Unauthorized"}}
+[2026-03-17T13:54:01.288Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/filters
+[2026-03-17T13:54:01.288Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/stats
+[2026-03-17T13:54:01.305Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/indexers
+[2026-03-17T13:54:01.313Z] error: <httpProxy> Error calling http://seerr:5055/api/v1/request/count...
+[2026-03-17T13:54:01.313Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND seerr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'seerr'
+  }
+]
+[2026-03-17T13:54:01.313Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://seerr:5055/api/v1/request/count
+[2026-03-17T13:54:01.337Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-17T13:54:01.337Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-17T13:54:01.380Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-17T13:54:01.381Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-17T13:54:01.404Z] error: <httpProxy> Error calling http://immich:2283/api/server/statistics...
+[2026-03-17T13:54:01.404Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND immich] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'immich'
+  }
+]
+[2026-03-17T13:54:01.405Z] error: <httpProxy> Error calling http://immich:2283/api/server/version...
+[2026-03-17T13:54:01.405Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND immich] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'immich'
+  }
+]
+[2026-03-17T13:54:01.405Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://immich:2283/api/server/statistics
+[2026-03-17T13:54:01.405Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://immich:2283/api/server/version
+[2026-03-17T13:54:01.420Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Sessions?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:54:01.470Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 401
+[2026-03-17T13:54:01.474Z] error: <httpProxy> Error calling http://paperless:8000/api/statistics/...
+[2026-03-17T13:54:01.474Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND paperless] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'paperless'
+  }
+]
+[2026-03-17T13:54:01.474Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-17T13:54:01.479Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Items/Counts?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:54:01.504Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/users/login...
+[2026-03-17T13:54:01.505Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-17T13:54:01.505Z] error: <homeboxProxyHandler> Unable to login to Homebox API: SyntaxError: "[object Object]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at l (.next/server/pages/api/services/proxy.js:58:56866)
+    at async n (.next/server/pages/api/services/proxy.js:58:58168)
+    at async l (.next/server/pages/api/services/proxy.js:41:18046)
+    at async Module.m (.next/server/pages/api/services/proxy.js:58:29770)
+[2026-03-17T13:54:01.563Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/groups/statistics...
+[2026-03-17T13:54:01.564Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-17T13:54:01.564Z] error: <homeboxProxyHandler> HTTP 500 getting data from Homebox, data: { error: [Object] }
+[2026-03-17T13:54:01.631Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/groups...
+[2026-03-17T13:54:01.631Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-17T13:54:01.631Z] error: <homeboxProxyHandler> HTTP 500 getting data from Homebox, data: { error: [Object] }
+[2026-03-17T13:54:03.795Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool/dataset
+[2026-03-17T13:54:03.797Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool
+[2026-03-17T13:54:17.692Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:3552/api/environments/0/containers/counts
+[2026-03-17T13:54:17.725Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/stats
+[2026-03-17T13:54:17.728Z] error: <httpProxy> Error calling http://seerr:5055/api/v1/request/count...
+[2026-03-17T13:54:17.728Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND seerr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'seerr'
+  }
+]
+[2026-03-17T13:54:17.728Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://seerr:5055/api/v1/request/count
+[2026-03-17T13:54:17.731Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/filters
+[2026-03-17T13:54:17.739Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/indexers
+[2026-03-17T13:54:17.752Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-17T13:54:17.753Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-17T13:54:17.756Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-17T13:54:17.756Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-17T13:54:17.762Z] error: <httpProxy> Error calling http://immich:2283/api/server/version...
+[2026-03-17T13:54:17.762Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND immich] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'immich'
+  }
+]
+[2026-03-17T13:54:17.762Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://immich:2283/api/server/version
+[2026-03-17T13:54:17.773Z] error: <httpProxy> Error calling http://immich:2283/api/server/statistics...
+[2026-03-17T13:54:17.773Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND immich] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'immich'
+  }
+]
+[2026-03-17T13:54:17.773Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://immich:2283/api/server/statistics
+[2026-03-17T13:54:17.775Z] error: <httpProxy> Error calling http://paperless:8000/api/statistics/...
+[2026-03-17T13:54:17.775Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND paperless] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'paperless'
+  }
+]
+[2026-03-17T13:54:17.775Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-17T13:54:17.779Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/users/login...
+[2026-03-17T13:54:17.779Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-17T13:54:17.780Z] error: <homeboxProxyHandler> Unable to login to Homebox API: SyntaxError: "[object Object]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at l (.next/server/pages/api/services/proxy.js:58:56866)
+    at async n (.next/server/pages/api/services/proxy.js:58:58168)
+    at async l (.next/server/pages/api/services/proxy.js:41:18046)
+    at async Module.m (.next/server/pages/api/services/proxy.js:58:29770)
+[2026-03-17T13:54:17.783Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Sessions?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:54:17.787Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Items/Counts?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:54:17.795Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/groups/statistics...
+[2026-03-17T13:54:17.795Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-17T13:54:17.795Z] error: <homeboxProxyHandler> HTTP 500 getting data from Homebox, data: { error: [Object] }
+[2026-03-17T13:54:17.803Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/groups...
+[2026-03-17T13:54:17.803Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-17T13:54:17.804Z] error: <homeboxProxyHandler> HTTP 500 getting data from Homebox, data: { error: [Object] }
+[2026-03-17T13:54:20.635Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/alert/list
+[2026-03-17T13:54:20.641Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/system/info
+[2026-03-17T13:54:20.754Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/status/datastore-usage...
+[2026-03-17T13:54:20.755Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:54:20.755Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/status/datastore-usage
+[2026-03-17T13:54:20.755Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/nodes/localhost/tasks...
+[2026-03-17T13:54:20.756Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:54:20.756Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/nodes/localhost/tasks?errors=true&limit=100&since=1773667500973
+[2026-03-17T13:54:20.756Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/nodes/localhost/status...
+[2026-03-17T13:54:20.757Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:54:20.757Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/nodes/localhost/status
+[2026-03-17T13:54:20.757Z] error: <httpProxy> Error calling https://192.168.1.2:8006/api2/json/cluster/resources...
+[2026-03-17T13:54:20.757Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-17T13:54:20.757Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://192.168.1.2:8006/api2/json/cluster/resources
+[2026-03-17T13:54:20.772Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:3552/api/environments/0/images/counts
+[2026-03-17T13:54:20.774Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:3552/api/environments/0/image-updates/summary
+[2026-03-17T13:54:20.805Z] error: <unifiProxyHandler> HTTP 401 getting data from Unifi endpoint https://192.168.1.1/proxy/network/api/stat/sites. Data: {"error":{"code":401,"message":"Unauthorized"}}
+[2026-03-17T13:54:21.079Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 401
+[2026-03-17T13:54:22.815Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/stats
+[2026-03-17T13:54:22.818Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/filters
+[2026-03-17T13:54:22.822Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Sessions?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:54:22.909Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool
+[2026-03-17T13:54:22.910Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool/dataset
+[2026-03-17T13:54:27.818Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/indexers
+[2026-03-17T13:54:27.821Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Items/Counts?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:54:30.124Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool
+[2026-03-17T13:54:32.898Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/filters
+[2026-03-17T13:54:33.620Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/alert/list
+[2026-03-17T13:54:33.622Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/system/info
+[2026-03-17T13:54:35.142Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool/dataset
+[2026-03-17T13:54:37.835Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/indexers
+[2026-03-17T13:54:37.838Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Sessions?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:54:42.788Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool
+[2026-03-17T13:54:47.834Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/stats
+[2026-03-17T13:54:51.776Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/alert/list
+[2026-03-17T13:54:52.841Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Items/Counts?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:54:57.857Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Sessions?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:55:01.156Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/system/info
+[2026-03-17T13:55:03.224Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool/dataset
+[2026-03-17T13:55:07.849Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/stats
+[2026-03-17T13:55:15.843Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool
+[2026-03-17T13:55:22.923Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/filters
+[2026-03-17T13:55:32.855Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/indexers
+[2026-03-17T13:55:32.861Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Items/Counts?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:55:36.741Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/alert/list
+[2026-03-17T13:55:36.742Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/system/info
+[2026-03-17T13:55:37.394Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/status/datastore-usage...
+[2026-03-17T13:55:37.394Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:55:37.395Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/status/datastore-usage
+[2026-03-17T13:55:37.396Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/nodes/localhost/tasks...
+[2026-03-17T13:55:37.396Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:55:37.396Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/nodes/localhost/tasks?errors=true&limit=100&since=1773667500973
+[2026-03-17T13:55:37.396Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/nodes/localhost/status...
+[2026-03-17T13:55:37.397Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:55:37.397Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/nodes/localhost/status
+[2026-03-17T13:55:37.397Z] error: <httpProxy> Error calling https://192.168.1.2:8006/api2/json/cluster/resources...
+[2026-03-17T13:55:37.397Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-17T13:55:37.397Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://192.168.1.2:8006/api2/json/cluster/resources
+[2026-03-17T13:55:37.411Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:3552/api/environments/0/containers/counts
+[2026-03-17T13:55:37.413Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:3552/api/environments/0/images/counts
+[2026-03-17T13:55:37.418Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:3552/api/environments/0/image-updates/summary
+[2026-03-17T13:55:37.446Z] error: <unifiProxyHandler> HTTP 401 getting data from Unifi endpoint https://192.168.1.1/proxy/network/api/stat/sites. Data: {"error":{"code":401,"message":"Unauthorized"}}
+[2026-03-17T13:55:37.449Z] error: <httpProxy> Error calling http://seerr:5055/api/v1/request/count...
+[2026-03-17T13:55:37.449Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND seerr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'seerr'
+  }
+]
+[2026-03-17T13:55:37.449Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://seerr:5055/api/v1/request/count
+[2026-03-17T13:55:37.454Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/stats
+[2026-03-17T13:55:37.461Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/filters
+[2026-03-17T13:55:37.461Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/indexers
+[2026-03-17T13:55:37.467Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-17T13:55:37.467Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-17T13:55:37.474Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-17T13:55:37.475Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-17T13:55:37.475Z] error: <httpProxy> Error calling http://immich:2283/api/server/version...
+[2026-03-17T13:55:37.475Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND immich] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'immich'
+  }
+]
+[2026-03-17T13:55:37.475Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://immich:2283/api/server/version
+[2026-03-17T13:55:37.480Z] error: <httpProxy> Error calling http://immich:2283/api/server/statistics...
+[2026-03-17T13:55:37.480Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND immich] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'immich'
+  }
+]
+[2026-03-17T13:55:37.481Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://immich:2283/api/server/statistics
+[2026-03-17T13:55:37.487Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Sessions?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:55:37.489Z] error: <httpProxy> Error calling http://paperless:8000/api/statistics/...
+[2026-03-17T13:55:37.489Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND paperless] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'paperless'
+  }
+]
+[2026-03-17T13:55:37.489Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-17T13:55:37.489Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/users/login...
+[2026-03-17T13:55:37.489Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-17T13:55:37.490Z] error: <homeboxProxyHandler> Unable to login to Homebox API: SyntaxError: "[object Object]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at l (.next/server/pages/api/services/proxy.js:58:56866)
+    at async n (.next/server/pages/api/services/proxy.js:58:58168)
+    at async l (.next/server/pages/api/services/proxy.js:41:18046)
+    at async Module.m (.next/server/pages/api/services/proxy.js:58:29770)
+[2026-03-17T13:55:37.498Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/groups/statistics...
+[2026-03-17T13:55:37.498Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-17T13:55:37.498Z] error: <homeboxProxyHandler> HTTP 500 getting data from Homebox, data: { error: [Object] }
+[2026-03-17T13:55:37.534Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Items/Counts?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:55:37.535Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/groups...
+[2026-03-17T13:55:37.535Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-17T13:55:37.535Z] error: <homeboxProxyHandler> HTTP 500 getting data from Homebox, data: { error: [Object] }
+[2026-03-17T13:55:37.721Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 401
+[2026-03-17T13:55:39.777Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool
+[2026-03-17T13:55:39.778Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool/dataset
+[2026-03-17T13:55:42.473Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/stats
+[2026-03-17T13:55:42.503Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Sessions?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:55:47.225Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool/dataset
+[2026-03-17T13:55:47.482Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/filters
+[2026-03-17T13:55:47.484Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/indexers
+[2026-03-17T13:55:47.553Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Items/Counts?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:55:49.487Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/alert/list
+[2026-03-17T13:55:49.488Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/system/info
+[2026-03-17T13:55:52.520Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Sessions?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:55:53.247Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool
+[2026-03-17T13:55:53.904Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/system/info
+[2026-03-17T13:55:57.571Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Items/Counts?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:55:59.465Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool/dataset
+[2026-03-17T13:56:02.492Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/stats
+[2026-03-17T13:56:02.498Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/filters
+[2026-03-17T13:56:07.015Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/alert/list
+[2026-03-17T13:56:12.504Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/indexers
+[2026-03-17T13:56:16.716Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool
+[2026-03-17T13:56:17.074Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/system/info
+[2026-03-17T13:56:22.510Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/stats
+[2026-03-17T13:56:27.522Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/filters
+[2026-03-17T13:56:27.943Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/filters
+[2026-03-17T13:56:34.383Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/alert/list
+[2026-03-17T13:56:37.586Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Items/Counts?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:56:37.866Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/stats
+[2026-03-17T13:56:38.627Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool
+[2026-03-17T13:56:46.818Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool/dataset
+[2026-03-17T13:56:47.540Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Sessions?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:56:52.541Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/indexers
+[2026-03-17T13:56:52.877Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Sessions?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:57:06.198Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/system/info
+[2026-03-17T13:57:14.787Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool
+[2026-03-17T13:57:14.944Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/system/info
+[2026-03-17T13:57:22.542Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/filters
+[2026-03-17T13:57:22.880Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Items/Counts?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:57:22.893Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/alert/list
+[2026-03-17T13:57:27.870Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/indexers
+[2026-03-17T13:57:40.370Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/nodes/localhost/tasks...
+[2026-03-17T13:57:40.371Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:57:40.371Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/nodes/localhost/tasks?errors=true&limit=100&since=1773667500973
+[2026-03-17T13:57:40.372Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/status/datastore-usage...
+[2026-03-17T13:57:40.372Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:57:40.372Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/status/datastore-usage
+[2026-03-17T13:57:40.372Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/nodes/localhost/status...
+[2026-03-17T13:57:40.373Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T13:57:40.373Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/nodes/localhost/status
+[2026-03-17T13:57:40.373Z] error: <httpProxy> Error calling https://192.168.1.2:8006/api2/json/cluster/resources...
+[2026-03-17T13:57:40.373Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-17T13:57:40.373Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://192.168.1.2:8006/api2/json/cluster/resources
+[2026-03-17T13:57:40.419Z] error: <unifiProxyHandler> HTTP 401 getting data from Unifi endpoint https://192.168.1.1/proxy/network/api/stat/sites. Data: {"error":{"code":401,"message":"Unauthorized"}}
+[2026-03-17T13:57:40.426Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:3552/api/environments/0/containers/counts
+[2026-03-17T13:57:40.430Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:3552/api/environments/0/images/counts
+[2026-03-17T13:57:40.435Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:3552/api/environments/0/image-updates/summary
+[2026-03-17T13:57:40.478Z] error: <httpProxy> Error calling http://seerr:5055/api/v1/request/count...
+[2026-03-17T13:57:40.478Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND seerr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'seerr'
+  }
+]
+[2026-03-17T13:57:40.478Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://seerr:5055/api/v1/request/count
+[2026-03-17T13:57:40.489Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/stats
+[2026-03-17T13:57:40.494Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/filters
+[2026-03-17T13:57:40.503Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/indexers
+[2026-03-17T13:57:40.511Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-17T13:57:40.511Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-17T13:57:40.520Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-17T13:57:40.520Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-17T13:57:40.528Z] error: <httpProxy> Error calling http://immich:2283/api/server/version...
+[2026-03-17T13:57:40.528Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND immich] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'immich'
+  }
+]
+[2026-03-17T13:57:40.528Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://immich:2283/api/server/version
+[2026-03-17T13:57:40.539Z] error: <httpProxy> Error calling http://immich:2283/api/server/statistics...
+[2026-03-17T13:57:40.539Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND immich] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'immich'
+  }
+]
+[2026-03-17T13:57:40.539Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://immich:2283/api/server/statistics
+[2026-03-17T13:57:40.546Z] error: <httpProxy> Error calling http://paperless:8000/api/statistics/...
+[2026-03-17T13:57:40.547Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND paperless] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'paperless'
+  }
+]
+[2026-03-17T13:57:40.547Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-17T13:57:40.555Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/users/login...
+[2026-03-17T13:57:40.556Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-17T13:57:40.556Z] error: <homeboxProxyHandler> Unable to login to Homebox API: SyntaxError: "[object Object]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at l (.next/server/pages/api/services/proxy.js:58:56866)
+    at async n (.next/server/pages/api/services/proxy.js:58:58168)
+    at async l (.next/server/pages/api/services/proxy.js:41:18046)
+    at async Module.m (.next/server/pages/api/services/proxy.js:58:29770)
+[2026-03-17T13:57:40.563Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/groups/statistics...
+[2026-03-17T13:57:40.563Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-17T13:57:40.563Z] error: <homeboxProxyHandler> HTTP 500 getting data from Homebox, data: { error: [Object] }
+[2026-03-17T13:57:40.568Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/groups...
+[2026-03-17T13:57:40.568Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-17T13:57:40.568Z] error: <homeboxProxyHandler> HTTP 500 getting data from Homebox, data: { error: [Object] }
+[2026-03-17T13:57:40.574Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Sessions?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:57:40.579Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Items/Counts?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:57:40.611Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/system/info
+[2026-03-17T13:57:40.611Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/alert/list
+[2026-03-17T13:57:40.696Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 401
+[2026-03-17T13:57:42.439Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool/dataset
+[2026-03-17T13:57:42.440Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool
+[2026-03-17T13:57:45.505Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/stats
+[2026-03-17T13:57:45.514Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/indexers
+[2026-03-17T13:57:48.064Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/alert/list
+[2026-03-17T13:57:48.116Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/system/info
+[2026-03-17T13:57:50.513Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/filters
+[2026-03-17T13:57:50.593Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Sessions?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:57:50.596Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Items/Counts?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:57:54.478Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool/dataset
+[2026-03-17T13:57:54.674Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool
+[2026-03-17T13:57:57.560Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Sessions?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:57:58.242Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/system/info
+[2026-03-17T13:58:00.534Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/indexers
+[2026-03-17T13:58:00.609Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Sessions?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:58:05.527Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/stats
+[2026-03-17T13:58:06.551Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool/dataset
+[2026-03-17T13:58:06.707Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool
+[2026-03-17T13:58:11.678Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/alert/list
+[2026-03-17T13:58:15.535Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/filters
+[2026-03-17T13:58:15.615Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Items/Counts?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:58:17.895Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Sessions?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:58:20.630Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Sessions?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:58:22.864Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool
+[2026-03-17T13:58:30.550Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/stats
+[2026-03-17T13:58:30.553Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/indexers
+[2026-03-17T13:58:39.460Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool
+[2026-03-17T13:58:44.574Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool/dataset
+[2026-03-17T13:58:45.776Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/alert/list
+[2026-03-17T13:58:48.665Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool/dataset
+[2026-03-17T13:58:50.553Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/filters
+[2026-03-17T13:58:50.635Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Items/Counts?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:58:54.160Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/alert/list
+[2026-03-17T13:58:57.897Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/indexers
+[2026-03-17T13:59:00.711Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool
+[2026-03-17T13:59:05.649Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Sessions?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:59:07.561Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/filters
+[2026-03-17T13:59:20.570Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/indexers
+[2026-03-17T13:59:21.074Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/system/info
+[2026-03-17T13:59:35.569Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/stats
+[2026-03-17T13:59:37.886Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/stats
+[2026-03-17T13:59:47.895Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Items/Counts?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T13:59:48.536Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/system/info
+[2026-03-17T13:59:50.985Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool/dataset
+[2026-03-17T13:59:55.578Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/filters
+[2026-03-17T14:00:07.961Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/filters
+[2026-03-17T14:00:17.322Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool
+[2026-03-17T14:00:40.659Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Items/Counts?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T14:00:46.798Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/alert/list
+[2026-03-17T14:00:50.588Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/indexers
+[2026-03-17T14:01:12.575Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Sessions?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T14:02:05.875Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool
+[2026-03-17T14:02:07.916Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/indexers
+[2026-03-17T14:02:11.474Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/status/datastore-usage...
+[2026-03-17T14:02:11.474Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T14:02:11.475Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/status/datastore-usage
+[2026-03-17T14:02:11.475Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/nodes/localhost/tasks...
+[2026-03-17T14:02:11.475Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T14:02:11.475Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/nodes/localhost/tasks?errors=true&limit=100&since=1773667500973
+[2026-03-17T14:02:11.476Z] error: <httpProxy> Error calling https://backup.home:8007/api2/json/nodes/localhost/status...
+[2026-03-17T14:02:11.476Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.76:8007
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.76:8007) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.76',
+    port: 8007
+  }
+]
+[2026-03-17T14:02:11.476Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://backup.home:8007/api2/json/nodes/localhost/status
+[2026-03-17T14:02:11.476Z] error: <httpProxy> Error calling https://192.168.1.2:8006/api2/json/cluster/resources...
+[2026-03-17T14:02:11.476Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-17T14:02:11.476Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://192.168.1.2:8006/api2/json/cluster/resources
+[2026-03-17T14:02:11.525Z] error: <unifiProxyHandler> HTTP 401 getting data from Unifi endpoint https://192.168.1.1/proxy/network/api/stat/sites. Data: {"error":{"code":401,"message":"Unauthorized"}}
+[2026-03-17T14:02:11.533Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:3552/api/environments/0/containers/counts
+[2026-03-17T14:02:11.539Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:3552/api/environments/0/images/counts
+[2026-03-17T14:02:11.544Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:3552/api/environments/0/image-updates/summary
+[2026-03-17T14:02:11.571Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/alert/list
+[2026-03-17T14:02:11.572Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/system/info
+[2026-03-17T14:02:11.605Z] error: <httpProxy> Error calling http://seerr:5055/api/v1/request/count...
+[2026-03-17T14:02:11.607Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND seerr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'seerr'
+  }
+]
+[2026-03-17T14:02:11.607Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://seerr:5055/api/v1/request/count
+[2026-03-17T14:02:11.613Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/stats
+[2026-03-17T14:02:11.619Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/filters
+[2026-03-17T14:02:11.622Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/indexers
+[2026-03-17T14:02:11.629Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-17T14:02:11.631Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-17T14:02:11.635Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-17T14:02:11.635Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-17T14:02:11.641Z] error: <httpProxy> Error calling http://immich:2283/api/server/version...
+[2026-03-17T14:02:11.641Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND immich] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'immich'
+  }
+]
+[2026-03-17T14:02:11.641Z] error: <httpProxy> Error calling http://immich:2283/api/server/statistics...
+[2026-03-17T14:02:11.641Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND immich] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'immich'
+  }
+]
+[2026-03-17T14:02:11.641Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://immich:2283/api/server/version
+[2026-03-17T14:02:11.642Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://immich:2283/api/server/statistics
+[2026-03-17T14:02:11.646Z] error: <httpProxy> Error calling http://paperless:8000/api/statistics/...
+[2026-03-17T14:02:11.646Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND paperless] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'paperless'
+  }
+]
+[2026-03-17T14:02:11.646Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-17T14:02:11.651Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Sessions?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T14:02:11.655Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/users/login...
+[2026-03-17T14:02:11.655Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-17T14:02:11.656Z] error: <homeboxProxyHandler> Unable to login to Homebox API: SyntaxError: "[object Object]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at l (.next/server/pages/api/services/proxy.js:58:56866)
+    at async n (.next/server/pages/api/services/proxy.js:58:58168)
+    at async l (.next/server/pages/api/services/proxy.js:41:18046)
+    at async Module.m (.next/server/pages/api/services/proxy.js:58:29770)
+[2026-03-17T14:02:11.658Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Items/Counts?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T14:02:11.663Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/groups/statistics...
+[2026-03-17T14:02:11.664Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-17T14:02:11.664Z] error: <homeboxProxyHandler> HTTP 500 getting data from Homebox, data: { error: [Object] }
+[2026-03-17T14:02:11.669Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/groups...
+[2026-03-17T14:02:11.670Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-17T14:02:11.670Z] error: <homeboxProxyHandler> HTTP 500 getting data from Homebox, data: { error: [Object] }
+[2026-03-17T14:02:11.798Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 401
+[2026-03-17T14:02:14.404Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool
+[2026-03-17T14:02:14.405Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool/dataset
+[2026-03-17T14:02:16.629Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/stats
+[2026-03-17T14:02:16.632Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/filters
+[2026-03-17T14:02:16.636Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/indexers
+[2026-03-17T14:02:16.674Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Items/Counts?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T14:02:19.197Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/system/info
+[2026-03-17T14:02:19.199Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/alert/list
+[2026-03-17T14:02:21.668Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Sessions?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T14:02:22.421Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool/dataset
+[2026-03-17T14:02:26.650Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/filters
+[2026-03-17T14:02:27.431Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool
+[2026-03-17T14:02:31.648Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/stats
+[2026-03-17T14:02:35.214Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool/dataset
+[2026-03-17T14:02:41.654Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/indexers
+[2026-03-17T14:02:41.684Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Sessions?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T14:02:41.687Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Items/Counts?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T14:02:46.663Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/filters
+[2026-03-17T14:02:46.996Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/alert/list
+[2026-03-17T14:02:46.997Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/system/info
+[2026-03-17T14:02:50.588Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/stats
+[2026-03-17T14:02:50.668Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Sessions?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T14:02:54.976Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool
+[2026-03-17T14:03:05.569Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool
+[2026-03-17T14:03:10.263Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/alert/list
+[2026-03-17T14:03:11.673Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/indexers
+[2026-03-17T14:03:17.580Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/filters
+[2026-03-17T14:03:22.740Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool
+[2026-03-17T14:03:23.855Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool/dataset
+[2026-03-17T14:03:25.680Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Items/Counts?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T14:03:26.674Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/stats
+[2026-03-17T14:03:26.678Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/filters
+[2026-03-17T14:03:26.701Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Items/Counts?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T14:03:28.283Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool/dataset
+[2026-03-17T14:03:35.596Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/filters
+[2026-03-17T14:03:36.702Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Sessions?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T14:03:44.733Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/system/info
+[2026-03-17T14:03:52.595Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Sessions?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T14:04:14.847Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/alert/list
+[2026-03-17T14:04:32.250Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/system/info
+[2026-03-17T14:04:36.025Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool/dataset
+[2026-03-17T14:04:36.694Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/stats
+[2026-03-17T14:04:36.719Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Sessions?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T14:04:47.989Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/alert/list
+[2026-03-17T14:04:56.691Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/indexers
+[2026-03-17T14:04:57.915Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Sessions?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T14:05:05.457Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool
+[2026-03-17T14:05:08.176Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/pool
+[2026-03-17T14:05:21.718Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Items/Counts?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T14:05:30.607Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/indexers
+[2026-03-17T14:05:34.005Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/alert/list
+[2026-03-17T14:05:40.607Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/stats
+[2026-03-17T14:05:42.906Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/stats
+[2026-03-17T14:05:45.688Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Sessions?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T14:06:08.913Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/system/info
+[2026-03-17T14:06:27.916Z] error: <jellyfinProxyHandler> HTTP Error 401 calling http://jellyfin:8096/emby/Items/Counts?api_key={{HOMEPAGE_VAR_JELLYFIN}}
+[2026-03-17T14:06:31.697Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/filters
+[2026-03-17T14:06:35.748Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/system/info
+[2026-03-17T14:07:01.710Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/stats
+[2026-03-17T14:07:05.442Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.1.4/api/v2.0/system/info
