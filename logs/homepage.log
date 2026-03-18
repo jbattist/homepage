@@ -25250,3 +25250,4 @@ This combination of host and port requires TLS.
   }
 ]
 [2026-03-18T14:40:34.810Z] error: <homeboxProxyHandler> HTTP 500 getting data from Homebox, data: { error: [Object] }
+[2026-03-18T14:40:39.777Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/indexers
