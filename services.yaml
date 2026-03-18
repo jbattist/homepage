@@ -5,23 +5,23 @@
 
 - Infrastructure:
     - Proxmox:
-        href: "http://192.168.1.2:8006"
+        href: "http://proxmox2.home:8006"
         description: Proxmox Server
         icon: "si-proxmox"
         widget:
           type: proxmox
-          url: "https://192.168.1.2:8006"
-          username: "root@pam!homepage"
+          url: "https://proxmox2.home:8006"
+          username: "homepage@pam!homepage"
           password: "{{HOMEPAGE_VAR_PROXMOX}}"
           verify_ssl: false
     
     - Proxmox Backup:
-        href: "http://backup.home:8007"
+        href: "http://backup2.home:8007"
         description: Proxmox Backup Server
         icon: "si-proxmox"
         widget:
             type: proxmoxbackupserver
-            url: "https://backup.home:8007"
+            url: "https://backup2.home:8007"
             username: "root@pam!homepage"
             password: "{{HOMEPAGE_VAR_PBS}}"
             verify_ssl: false
@@ -63,6 +63,7 @@
         widget:
           type: speedtest
           url: "http://speedtest"
+          bitratePrecision: 2
           key: "{{HOMEPAGE_VAR_SPEEDTEST}}"
 
     - Arcane:
