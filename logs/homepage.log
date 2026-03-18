@@ -25253,3 +25253,6 @@ This combination of host and port requires TLS.
 [2026-03-18T14:40:39.777Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/indexers
 [2026-03-18T14:40:44.768Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/stats
 [2026-03-18T14:40:44.772Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/filters
+[2026-03-18T14:41:04.793Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/stats
+[2026-03-18T14:41:04.796Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/filters
+[2026-03-18T14:41:04.799Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/indexers
