@@ -21,6 +21,10 @@ layout:
     header: true
     style: column
     rowHeight: 40px
+  Network:
+    header: true
+    style: column
+    rowHeight: 40px
   Arr:
     header: true
     style: column

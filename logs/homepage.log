@@ -25256,3 +25256,413 @@ This combination of host and port requires TLS.
 [2026-03-18T14:41:04.793Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/stats
 [2026-03-18T14:41:04.796Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/filters
 [2026-03-18T14:41:04.799Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://docker:7474/api/release/indexers
+[2026-03-18T17:04:26.833Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-18T17:04:26.840Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/users/login...
+[2026-03-18T17:04:26.842Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-18T17:04:26.844Z] error: <homeboxProxyHandler> Unable to login to Homebox API: SyntaxError: "[object Object]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at l (.next/server/pages/api/services/proxy.js:58:56866)
+    at async n (.next/server/pages/api/services/proxy.js:58:58168)
+    at async l (.next/server/pages/api/services/proxy.js:41:18046)
+    at async Module.m (.next/server/pages/api/services/proxy.js:58:29770)
+[2026-03-18T17:04:26.856Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/groups/statistics...
+[2026-03-18T17:04:26.857Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-18T17:04:26.857Z] error: <homeboxProxyHandler> HTTP 500 getting data from Homebox, data: { error: [Object] }
+[2026-03-18T17:04:26.867Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/groups...
+[2026-03-18T17:04:26.868Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-18T17:04:26.868Z] error: <homeboxProxyHandler> HTTP 500 getting data from Homebox, data: { error: [Object] }
+[2026-03-18T17:04:27.551Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-18T17:04:27.568Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/users/login...
+[2026-03-18T17:04:27.569Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-18T17:04:27.570Z] error: <homeboxProxyHandler> Unable to login to Homebox API: SyntaxError: "[object Object]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at l (.next/server/pages/api/services/proxy.js:58:56866)
+    at async n (.next/server/pages/api/services/proxy.js:58:58168)
+    at async l (.next/server/pages/api/services/proxy.js:41:18046)
+    at async Module.m (.next/server/pages/api/services/proxy.js:58:29770)
+[2026-03-18T17:04:27.585Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/groups/statistics...
+[2026-03-18T17:04:27.585Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-18T17:04:27.586Z] error: <homeboxProxyHandler> HTTP 500 getting data from Homebox, data: { error: [Object] }
+[2026-03-18T17:04:27.592Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/groups...
+[2026-03-18T17:04:27.593Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-18T17:04:27.593Z] error: <homeboxProxyHandler> HTTP 500 getting data from Homebox, data: { error: [Object] }
+[2026-03-18T17:05:19.682Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-18T17:05:19.699Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/users/login...
+[2026-03-18T17:05:19.699Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-18T17:05:19.700Z] error: <homeboxProxyHandler> Unable to login to Homebox API: SyntaxError: "[object Object]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at l (.next/server/pages/api/services/proxy.js:58:56866)
+    at async n (.next/server/pages/api/services/proxy.js:58:58168)
+    at async l (.next/server/pages/api/services/proxy.js:41:18046)
+    at async Module.m (.next/server/pages/api/services/proxy.js:58:29770)
+[2026-03-18T17:05:19.712Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/groups/statistics...
+[2026-03-18T17:05:19.712Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-18T17:05:19.712Z] error: <homeboxProxyHandler> HTTP 500 getting data from Homebox, data: { error: [Object] }
+[2026-03-18T17:05:19.722Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/groups...
+[2026-03-18T17:05:19.723Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-18T17:05:19.723Z] error: <homeboxProxyHandler> HTTP 500 getting data from Homebox, data: { error: [Object] }
+[2026-03-18T17:05:21.677Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-18T17:05:21.685Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/users/login...
+[2026-03-18T17:05:21.685Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-18T17:05:21.686Z] error: <homeboxProxyHandler> Unable to login to Homebox API: SyntaxError: "[object Object]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at l (.next/server/pages/api/services/proxy.js:58:56866)
+    at async n (.next/server/pages/api/services/proxy.js:58:58168)
+    at async l (.next/server/pages/api/services/proxy.js:41:18046)
+    at async Module.m (.next/server/pages/api/services/proxy.js:58:29770)
+[2026-03-18T17:05:21.695Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/groups/statistics...
+[2026-03-18T17:05:21.695Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-18T17:05:21.695Z] error: <homeboxProxyHandler> HTTP 500 getting data from Homebox, data: { error: [Object] }
+[2026-03-18T17:05:21.710Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/groups...
+[2026-03-18T17:05:21.710Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-18T17:05:21.710Z] error: <homeboxProxyHandler> HTTP 500 getting data from Homebox, data: { error: [Object] }
+[2026-03-18T17:05:50.531Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-18T17:05:50.556Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/users/login...
+[2026-03-18T17:05:50.557Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-18T17:05:50.558Z] error: <homeboxProxyHandler> Unable to login to Homebox API: SyntaxError: "[object Object]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at l (.next/server/pages/api/services/proxy.js:58:56866)
+    at async n (.next/server/pages/api/services/proxy.js:58:58168)
+    at async l (.next/server/pages/api/services/proxy.js:41:18046)
+    at async Module.m (.next/server/pages/api/services/proxy.js:58:29770)
+[2026-03-18T17:05:50.568Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/groups/statistics...
+[2026-03-18T17:05:50.569Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-18T17:05:50.569Z] error: <homeboxProxyHandler> HTTP 500 getting data from Homebox, data: { error: [Object] }
+[2026-03-18T17:05:50.580Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/groups...
+[2026-03-18T17:05:50.581Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-18T17:05:50.581Z] error: <homeboxProxyHandler> HTTP 500 getting data from Homebox, data: { error: [Object] }
+[2026-03-18T17:05:51.201Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-18T17:05:51.214Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/users/login...
+[2026-03-18T17:05:51.215Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-18T17:05:51.215Z] error: <homeboxProxyHandler> Unable to login to Homebox API: SyntaxError: "[object Object]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at l (.next/server/pages/api/services/proxy.js:58:56866)
+    at async n (.next/server/pages/api/services/proxy.js:58:58168)
+    at async l (.next/server/pages/api/services/proxy.js:41:18046)
+    at async Module.m (.next/server/pages/api/services/proxy.js:58:29770)
+[2026-03-18T17:05:51.226Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/groups/statistics...
+[2026-03-18T17:05:51.226Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-18T17:05:51.226Z] error: <homeboxProxyHandler> HTTP 500 getting data from Homebox, data: { error: [Object] }
+[2026-03-18T17:05:51.235Z] error: <httpProxy> Error calling http://homebox:7745/api/v1/groups...
+[2026-03-18T17:05:51.235Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND homebox] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'homebox'
+  }
+]
+[2026-03-18T17:05:51.235Z] error: <homeboxProxyHandler> HTTP 500 getting data from Homebox, data: { error: [Object] }
+[2026-03-18T17:06:25.444Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-18T17:06:25.879Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-18T17:07:01.471Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-18T17:07:02.385Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-18T17:07:02.385Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-18T17:07:02.387Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-18T17:07:02.388Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-18T17:07:02.404Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-18T17:09:00.455Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-18T17:09:00.455Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-18T17:09:00.461Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-18T17:09:00.461Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-18T17:09:00.481Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-18T17:09:00.918Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-18T17:09:01.021Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-18T17:09:01.021Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-18T17:09:01.024Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-18T17:09:01.024Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-18T17:09:40.343Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-18T17:09:40.408Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-18T17:09:40.409Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-18T17:09:40.414Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-18T17:09:40.415Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-18T17:09:40.882Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-18T17:09:40.971Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-18T17:09:40.971Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-18T17:09:40.974Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-18T17:09:40.974Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-18T17:10:57.094Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-18T17:10:57.168Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-18T17:10:57.169Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-18T17:10:57.169Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-18T17:10:57.169Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-18T17:10:57.708Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-18T17:10:57.823Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-18T17:10:57.823Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-18T17:10:57.834Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-18T17:10:57.834Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-18T17:10:59.562Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-18T17:10:59.562Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-18T17:10:59.563Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-18T17:10:59.563Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-18T17:10:59.564Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-18T17:10:59.564Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
