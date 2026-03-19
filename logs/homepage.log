@@ -25666,3 +25666,1043 @@ This combination of host and port requires TLS.
   }
 ]
 [2026-03-18T17:10:59.564Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-18T17:27:11.790Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-18T17:27:11.791Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-18T17:27:11.804Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-18T17:27:11.805Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-18T17:27:11.833Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-18T17:27:14.309Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-18T17:27:14.310Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-18T17:27:14.310Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-18T17:27:14.310Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-18T17:27:14.311Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-18T17:27:14.312Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-18T17:27:14.423Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-18T17:27:14.523Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-18T17:27:14.524Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-18T17:27:14.525Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-18T17:27:14.525Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-18T17:27:29.617Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-18T17:27:29.705Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-18T17:27:29.705Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-18T17:27:29.716Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-18T17:27:29.717Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-18T17:27:32.263Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-18T17:27:32.264Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-18T17:27:32.264Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-18T17:29:36.328Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-18T17:29:36.385Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-18T17:29:36.386Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-18T17:29:36.387Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-18T17:29:36.387Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-18T17:29:38.791Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-18T17:29:38.792Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-18T17:29:38.792Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-18T17:30:01.231Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-18T17:30:01.311Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-18T17:30:01.311Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-18T17:30:01.321Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-18T17:30:01.322Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-18T17:30:03.814Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-18T17:30:03.815Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-18T17:30:03.815Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-18T17:59:28.085Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-18T17:59:28.144Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-18T17:59:28.145Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-18T17:59:28.149Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-18T17:59:28.150Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-18T17:59:30.503Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-18T17:59:30.504Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-18T17:59:30.505Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-18T18:04:28.224Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-18T18:04:28.259Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-18T18:04:28.259Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-18T18:04:28.262Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-18T18:04:28.263Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-18T18:04:30.694Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-18T18:04:30.695Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-18T18:04:30.695Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-18T18:05:02.025Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-18T18:05:02.121Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-18T18:05:02.122Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-18T18:05:02.126Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-18T18:05:02.127Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-18T18:05:04.486Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-18T18:05:04.486Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-18T18:05:04.486Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-18T18:08:48.451Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-18T18:08:48.520Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-18T18:08:48.520Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-18T18:08:48.521Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-18T18:08:48.522Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-18T18:08:50.895Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-18T18:08:50.895Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-18T18:08:50.895Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-18T18:17:56.318Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-18T18:17:56.350Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-18T18:17:56.350Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-18T18:17:56.350Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-18T18:17:56.351Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-18T18:17:58.768Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-18T18:17:58.769Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-18T18:17:58.769Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-18T19:56:16.432Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-18T19:56:16.847Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-18T19:56:16.848Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-18T19:56:16.860Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-18T19:56:16.860Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-18T19:56:19.119Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-18T19:56:19.119Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-18T19:56:19.120Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-18T19:59:19.528Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-18T19:59:20.083Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-18T19:59:20.083Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-18T19:59:20.086Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-18T19:59:20.086Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-18T19:59:22.512Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-18T19:59:22.513Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-18T19:59:22.513Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-18T19:59:29.516Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-18T19:59:32.527Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-18T19:59:32.528Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-18T19:59:32.528Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-18T20:12:15.343Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-18T20:12:15.946Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-18T20:12:15.946Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-18T20:12:15.951Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-18T20:12:15.952Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-18T20:12:18.512Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-18T20:12:18.513Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-18T20:12:18.513Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-18T20:12:37.720Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-18T20:12:37.805Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-18T20:12:37.805Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-18T20:12:37.816Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-18T20:12:37.817Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-18T20:12:40.336Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-18T20:12:40.337Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-18T20:12:40.337Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-19T00:02:26.616Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-19T00:02:26.701Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-19T00:02:26.701Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T00:02:26.701Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-19T00:02:26.701Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T00:02:27.389Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-19T00:02:27.490Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-19T00:02:27.491Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T00:02:27.494Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-19T00:02:27.495Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T00:02:28.976Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-19T00:02:28.977Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-19T00:02:28.977Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-19T00:02:28.978Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-19T00:02:28.978Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-19T00:02:28.978Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-19T00:16:27.921Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:28.101Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:28.102Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:28.103Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:28.105Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:28.106Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:28.107Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:28.161Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:28.196Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:28.198Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:28.200Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:28.201Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:28.202Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:28.203Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:28.209Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:28.210Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:28.211Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:28.212Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:28.213Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:28.221Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:28.222Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:28.223Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:28.224Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:28.225Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:28.286Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:28.288Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:28.289Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:28.291Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:28.292Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:28.305Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:28.306Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:28.307Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:28.308Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:28.309Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:28.318Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:28.319Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:28.320Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:28.321Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:28.322Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:28.335Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:28.337Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:30.259Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:30.852Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:30.976Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:30.978Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:30.983Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:30.990Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:30.991Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:30.992Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:30.993Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:31.030Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:31.031Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:31.032Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:31.033Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:31.034Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:31.035Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:31.046Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:31.047Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:31.048Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:31.049Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:31.049Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:31.050Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:31.056Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:31.057Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:31.058Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:31.058Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:31.059Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:31.060Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:31.066Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:31.067Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:31.068Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:31.069Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:31.069Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:31.070Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:31.077Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:31.078Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:31.079Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:31.080Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:31.080Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:31.082Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:31.087Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:31.088Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:31.088Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:31.089Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:16:31.090Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:25:36.384Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T00:25:36.385Z] error: Host validation failed for: docker.home:3001. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-03-19T10:16:28.242Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-19T10:16:28.254Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-19T10:16:28.256Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T10:16:28.267Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-19T10:16:28.268Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T10:16:30.601Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-19T10:16:30.602Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-19T10:16:30.602Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-19T10:16:34.583Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-19T10:16:34.600Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-19T10:16:34.600Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T10:16:34.616Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-19T10:16:34.616Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T10:16:37.127Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-19T10:16:37.192Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-19T10:16:37.193Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-19T10:16:37.193Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-19T10:16:37.193Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-19T10:16:37.194Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-19T10:16:37.194Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-19T10:16:37.199Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-19T10:16:37.199Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T10:16:37.207Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-19T10:16:37.207Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T10:16:45.694Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-19T10:16:45.746Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-19T10:16:45.746Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T10:16:45.750Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-19T10:16:45.750Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T10:16:48.170Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-19T10:16:48.171Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-19T10:16:48.171Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-19T10:16:58.141Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-19T10:16:58.180Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-19T10:16:58.183Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T10:16:58.189Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-19T10:16:58.189Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T10:17:00.553Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-19T10:17:00.554Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-19T10:17:00.554Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-19T10:48:21.310Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-19T10:48:21.359Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-19T10:48:21.360Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T10:48:21.365Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-19T10:48:21.366Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T10:48:23.690Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-19T10:48:23.690Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-19T10:48:23.690Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-19T10:49:25.800Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-19T10:49:25.871Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-19T10:49:25.872Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T10:49:25.872Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-19T10:49:25.872Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T10:49:28.297Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-19T10:49:28.298Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-19T10:49:28.298Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-19T11:12:05.793Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-19T11:12:05.875Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-19T11:12:05.875Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T11:12:05.877Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-19T11:12:05.877Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T11:12:08.360Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-19T11:12:08.361Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-19T11:12:08.361Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-19T11:23:37.897Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-19T11:23:37.971Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-19T11:23:37.971Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T11:23:37.976Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-19T11:23:37.976Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T11:23:40.233Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-19T11:23:40.235Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-19T11:23:40.235Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-19T11:23:50.364Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-19T11:23:50.442Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-19T11:23:50.443Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T11:23:50.447Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-19T11:23:50.448Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T11:38:51.222Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-19T11:38:51.271Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-19T11:38:51.272Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T11:38:51.274Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-19T11:38:51.274Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T11:38:53.642Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-19T11:38:53.643Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-19T11:38:53.643Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-19T13:32:44.212Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-19T13:32:44.267Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-19T13:32:44.268Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T13:32:44.274Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-19T13:32:44.274Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T13:32:46.538Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-19T13:32:46.539Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-19T13:32:46.539Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources

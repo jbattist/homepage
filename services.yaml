@@ -75,7 +75,7 @@
           key: "{{HOMEPAGE_VAR_UNIFI}}"
 
     - Pi-hole:
-        href: "http://192.168.1.100"
+        href: "http://192.168.1.100/admin"
         description: DNS and Ad Blocking
         icon: "si-pihole"
         widget:
