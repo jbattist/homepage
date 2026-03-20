@@ -26706,3 +26706,1926 @@ This combination of host and port requires TLS.
   }
 ]
 [2026-03-19T13:32:46.539Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-19T13:59:06.264Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-19T13:59:06.327Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-19T13:59:06.332Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T13:59:06.345Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-19T13:59:06.345Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T13:59:08.586Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-19T13:59:08.587Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-19T13:59:08.587Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-19T13:59:45.519Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-19T13:59:45.575Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-19T13:59:45.575Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T13:59:45.576Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-19T13:59:45.576Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T13:59:47.913Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-19T13:59:47.914Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-19T13:59:47.914Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-19T14:04:16.171Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-19T14:04:16.239Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-19T14:04:16.240Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T14:04:16.245Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-19T14:04:16.245Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T14:04:18.346Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-19T14:04:18.347Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-19T14:04:18.347Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-19T14:18:47.324Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-19T14:18:47.387Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-19T14:18:47.388Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T14:18:47.397Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-19T14:18:47.397Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T14:18:49.706Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-19T14:18:49.707Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-19T14:18:49.707Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-19T14:21:51.720Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-19T14:21:51.721Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T14:21:51.722Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-19T14:21:51.722Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T14:21:51.726Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-19T14:21:53.040Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-19T14:21:54.762Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-19T14:21:54.763Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-19T14:21:54.763Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-19T14:21:54.764Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-19T14:21:54.764Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-19T14:21:54.764Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-19T14:35:07.370Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-19T14:35:07.371Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-19T14:35:07.371Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-19T14:36:39.402Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-19T14:36:39.561Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-19T14:36:39.562Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T14:36:39.570Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-19T14:36:39.571Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T14:36:42.537Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-19T14:36:42.538Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-19T14:36:42.538Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-19T14:36:46.084Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-19T14:36:46.247Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-19T14:36:46.247Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T14:36:46.260Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-19T14:36:46.261Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T14:36:49.229Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-19T14:36:49.229Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-19T14:36:49.229Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-19T14:36:57.994Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-19T14:36:57.995Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-19T14:36:57.995Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-19T14:43:58.311Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-19T14:43:58.311Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T14:43:58.320Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-19T14:43:58.321Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T14:43:58.358Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-19T14:44:01.354Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-19T14:44:01.355Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-19T14:44:01.355Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-19T14:46:55.573Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-19T14:46:55.573Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T14:46:55.981Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-19T14:46:55.982Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T14:46:55.989Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-19T14:46:58.634Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-19T14:46:58.635Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-19T14:46:58.635Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-19T14:48:56.749Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-19T14:48:56.796Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-19T14:48:56.797Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T14:48:56.797Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-19T14:48:56.797Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T14:48:59.242Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-19T14:48:59.243Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-19T14:48:59.243Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-19T14:57:05.178Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-19T14:57:05.247Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-19T14:57:05.248Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T14:57:05.248Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-19T14:57:05.249Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T14:57:07.593Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-19T14:57:07.594Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-19T14:57:07.594Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-19T14:57:10.362Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-19T14:57:10.441Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-19T14:57:10.442Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T14:57:10.453Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-19T14:57:10.454Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T14:57:13.001Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-19T14:57:13.002Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-19T14:57:13.002Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-19T14:57:19.961Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-19T14:57:19.961Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T14:57:20.325Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-19T14:57:20.389Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-19T14:57:20.389Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T14:57:22.921Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-19T14:57:22.922Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-19T14:57:22.922Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-19T14:57:40.097Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-19T14:57:40.097Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T14:57:40.590Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-19T14:57:40.635Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-19T14:57:40.636Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T14:57:43.114Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-19T14:57:43.115Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-19T14:57:43.115Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-19T14:58:01.834Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-19T14:58:01.914Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-19T14:58:01.914Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T14:58:01.925Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-19T14:58:01.925Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T14:58:04.490Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-19T14:58:04.491Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-19T14:58:04.491Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-19T14:58:55.576Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-19T14:58:55.627Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-19T14:58:55.627Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T14:58:55.633Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-19T14:58:55.633Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T14:58:58.089Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-19T14:58:58.090Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-19T14:58:58.090Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-19T15:00:32.429Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-19T15:00:32.485Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-19T15:00:32.485Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T15:00:32.492Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-19T15:00:32.492Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T15:00:34.889Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-19T15:00:34.890Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-19T15:00:34.891Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-19T15:02:42.409Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-19T15:02:42.496Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-19T15:02:42.496Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T15:02:42.502Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-19T15:02:42.502Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T15:02:44.939Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-19T15:02:44.940Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-19T15:02:44.940Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-19T15:06:43.733Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-19T15:06:43.812Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-19T15:06:43.813Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T15:06:43.824Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-19T15:06:43.824Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T15:06:46.122Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-19T15:06:46.123Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-19T15:06:46.123Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-19T15:07:32.749Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-19T15:07:32.792Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-19T15:07:32.793Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T15:07:33.321Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-19T15:07:33.321Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T15:07:35.754Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-19T15:07:35.755Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-19T15:07:35.755Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-19T15:18:10.452Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-19T15:18:10.453Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T15:18:10.455Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-19T15:18:10.455Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T15:18:11.013Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-19T15:18:13.897Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-19T15:18:13.898Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-19T15:18:13.899Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-19T15:18:21.746Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-19T15:18:21.746Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T15:18:21.760Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-19T15:18:21.760Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T15:18:22.142Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-19T15:18:24.585Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-19T15:18:24.586Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-19T15:18:24.586Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-19T15:19:12.833Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-19T15:19:12.834Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T15:19:12.847Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-19T15:19:12.847Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T15:19:13.346Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-19T15:19:15.690Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-19T15:19:15.690Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-19T15:19:15.691Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-19T15:19:25.207Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-19T15:19:25.208Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T15:19:25.221Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-19T15:19:25.221Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T15:19:25.588Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-19T15:19:28.041Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-19T15:19:28.042Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-19T15:19:28.042Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-19T15:35:45.656Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-19T15:35:45.656Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T15:35:45.833Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-19T15:35:46.201Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-19T15:35:46.201Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T15:35:48.681Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-19T15:35:48.682Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-19T15:35:48.682Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-19T15:36:22.826Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-19T15:36:23.076Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-19T15:36:23.077Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T15:36:23.090Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-19T15:36:23.090Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T15:36:25.641Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-19T15:36:25.642Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-19T15:36:25.642Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-19T15:42:08.110Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-19T15:42:08.142Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-19T15:42:08.142Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T15:42:08.142Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-19T15:42:08.142Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T15:42:11.209Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-19T15:42:11.209Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-19T15:42:11.210Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-19T15:46:47.099Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-19T15:46:47.672Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-19T15:46:47.673Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T15:46:47.677Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-19T15:46:47.678Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T15:46:50.058Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-19T15:46:50.059Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-19T15:46:50.059Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-19T15:46:53.439Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-19T15:46:53.516Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-19T15:46:53.517Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T15:46:53.527Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-19T15:46:53.527Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T15:46:56.074Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-19T15:46:56.075Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-19T15:46:56.075Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-19T15:49:05.305Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-19T15:49:05.362Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-19T15:49:05.362Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T15:49:05.365Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-19T15:49:05.368Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T15:49:07.753Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-19T15:49:07.754Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-19T15:49:07.754Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-19T15:49:25.206Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-19T15:49:25.288Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-19T15:49:25.288Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T15:49:25.290Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-19T15:49:25.290Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T15:49:27.752Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-19T15:49:27.753Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-19T15:49:27.753Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-19T16:00:54.040Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-19T16:00:54.041Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T16:00:54.043Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-19T16:00:54.044Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T16:00:54.627Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-19T16:00:57.034Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-19T16:00:57.035Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-19T16:00:57.035Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-19T16:21:23.470Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-19T16:21:23.519Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-19T16:21:23.519Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T16:21:23.524Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-19T16:21:23.524Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T16:21:25.833Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-19T16:21:25.833Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-19T16:21:25.833Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-19T17:05:21.178Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-19T17:05:21.206Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-19T17:05:21.206Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T17:05:21.211Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-19T17:05:21.211Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T17:05:23.529Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-19T17:05:23.530Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-19T17:05:23.530Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-19T17:47:24.625Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-19T17:47:24.629Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-19T17:47:24.630Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T17:47:25.147Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-19T17:47:25.147Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T17:47:27.688Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-19T17:47:27.689Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-19T17:47:27.689Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-19T23:36:31.514Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-19T23:36:31.622Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-19T23:36:31.623Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T23:36:31.624Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-19T23:36:31.625Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T23:36:33.449Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-19T23:36:33.449Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-19T23:36:33.449Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-19T23:36:33.450Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-19T23:36:33.450Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-19T23:36:33.450Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-19T23:49:42.756Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-19T23:49:42.827Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-19T23:49:42.827Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T23:49:42.828Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-19T23:49:42.829Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T23:49:45.161Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-19T23:49:45.162Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-19T23:49:45.163Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-19T23:49:50.005Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-19T23:49:50.519Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-19T23:49:50.520Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T23:49:50.520Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-19T23:49:50.520Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-19T23:49:53.001Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-19T23:49:53.002Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-19T23:49:53.002Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-20T00:00:17.288Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-20T00:00:17.392Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-20T00:00:17.393Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-20T00:00:17.470Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-20T00:00:17.471Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-20T00:00:20.714Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-20T00:00:20.715Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-20T00:00:20.715Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-20T05:51:07.944Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-20T05:51:08.009Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-20T05:51:08.010Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-20T05:51:08.025Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-20T05:51:08.025Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-20T05:51:10.281Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-20T05:51:10.282Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-20T05:51:10.282Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-20T05:52:54.622Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-20T05:52:54.694Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-20T05:52:54.694Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-20T05:52:54.695Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-20T05:52:54.695Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-20T05:52:57.067Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-20T05:52:57.068Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-20T05:52:57.068Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-20T05:59:24.986Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-20T05:59:25.044Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-20T05:59:25.044Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-20T05:59:25.045Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-20T05:59:25.045Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-20T05:59:27.337Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-20T05:59:27.338Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-20T05:59:27.338Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-20T06:02:03.860Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-20T06:02:03.923Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-20T06:02:03.924Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-20T06:02:03.927Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-20T06:02:03.928Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-20T06:02:06.250Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-20T06:02:06.251Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-20T06:02:06.251Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-20T06:06:36.380Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-20T06:06:36.432Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-20T06:06:36.433Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-20T06:06:36.434Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-20T06:06:36.434Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-20T06:06:38.762Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-20T06:06:38.763Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-20T06:06:38.763Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-20T10:39:08.118Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-20T10:39:08.506Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-20T10:39:08.506Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-20T10:39:08.514Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-20T10:39:08.515Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-20T10:39:10.826Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-20T10:39:10.828Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-20T10:39:10.828Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-20T10:39:17.208Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-20T10:39:17.740Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-20T10:39:17.740Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-20T10:39:17.751Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-20T10:39:17.751Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-20T10:39:20.200Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-20T10:39:20.201Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-20T10:39:20.201Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-20T10:39:49.708Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-20T10:39:50.238Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-20T10:39:50.239Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-20T10:39:50.243Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-20T10:39:50.243Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-20T10:39:52.681Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-20T10:39:52.682Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-20T10:39:52.682Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-20T10:40:10.442Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-20T10:40:10.940Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-20T10:40:10.940Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-20T10:40:10.945Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-20T10:40:10.946Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-20T10:40:13.449Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-20T10:40:13.450Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-20T10:40:13.450Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-20T10:42:32.077Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-20T10:42:32.621Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-20T10:42:32.621Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-20T10:42:32.625Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-20T10:42:32.625Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-20T10:42:35.050Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-20T10:42:35.050Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-20T10:42:35.051Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-20T10:43:47.061Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-20T10:43:47.523Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-20T10:43:47.524Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-20T10:43:47.535Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-20T10:43:47.535Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-20T10:43:50.025Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-20T10:43:50.025Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-20T10:43:50.026Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-20T10:44:10.926Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-20T10:44:11.366Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-20T10:44:11.366Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-20T10:44:11.374Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-20T10:44:11.374Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-20T10:44:13.930Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-20T10:44:13.931Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-20T10:44:13.932Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-20T10:44:15.010Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-20T10:44:15.079Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-20T10:44:15.079Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-20T10:44:15.082Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-20T10:44:15.083Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-20T10:44:17.513Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-20T10:44:17.514Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-20T10:44:17.514Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-20T10:44:19.644Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-20T10:44:20.119Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-20T10:44:20.120Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-20T10:44:20.121Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-20T10:44:20.121Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-20T10:44:22.633Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-20T10:44:22.635Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-20T10:44:22.635Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-20T10:46:51.252Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-20T10:46:51.785Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-20T10:46:51.785Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-20T10:46:51.792Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-20T10:46:51.792Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-20T10:46:52.326Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-20T10:46:52.389Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-20T10:46:52.390Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-20T10:46:52.399Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-20T10:46:52.399Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-20T10:46:54.250Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-20T10:46:54.252Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-20T10:46:54.252Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-20T10:46:54.253Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-20T10:46:54.253Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-20T10:46:54.253Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
