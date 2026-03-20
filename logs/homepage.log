@@ -28629,3 +28629,71 @@ This combination of host and port requires TLS.
   }
 ]
 [2026-03-20T10:46:54.253Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-20T10:47:12.376Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-20T10:47:12.468Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-20T10:47:12.468Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-20T10:47:12.479Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-20T10:47:12.480Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-20T10:47:14.985Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-20T10:47:14.986Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-20T10:47:14.987Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
+[2026-03-20T10:47:18.835Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://paperless:8000/api/statistics/?format=json
+[2026-03-20T10:47:18.908Z] error: <httpProxy> Error calling http://bazarr:6767/api/episodes/wanted...
+[2026-03-20T10:47:18.908Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-20T10:47:18.918Z] error: <httpProxy> Error calling http://bazarr:6767/api/movies/wanted...
+[2026-03-20T10:47:18.918Z] error: <httpProxy> [
+  500,
+  [Error: queryAaaa ENOTFOUND bazarr] {
+    errno: undefined,
+    code: 'ENOTFOUND',
+    syscall: 'queryAaaa',
+    hostname: 'bazarr'
+  }
+]
+[2026-03-20T10:47:21.448Z] error: <httpProxy> Error calling https://proxmox.home:8006/api2/json/cluster/resources...
+[2026-03-20T10:47:21.449Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.1.2:8006
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.1.2:8006) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.1.2',
+    port: 8006
+  }
+]
+[2026-03-20T10:47:21.449Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://proxmox.home:8006/api2/json/cluster/resources
