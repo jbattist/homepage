@@ -12,7 +12,7 @@ quicklaunch:
   searchDescriptions: true
   hideInternetSearch: false
   showSearchSuggestions: true
-  hideVisitURL: false
+  hideVisitURL: true
 hideVersion: false
 hideErrors: true
 statusStyle: "dot"

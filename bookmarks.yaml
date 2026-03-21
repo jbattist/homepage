@@ -4,15 +4,16 @@
 
 - Homelab:
     - Proxmox Scripts:
-        - abbr: SC
+        - icon: si-googledocs
           href: https://community-scripts.org/
 
-- Social:
-    - Reddit:
-        - abbr: RE
-          href: https://reddit.com/
+- SURVIVE:
+    - Portal:
+        - icon: si-fireship
+          href: http://survive.local/
+
 
 - Entertainment:
     - YouTube:
-        - abbr: YT
+        - icon: si-
           href: https://youtube.com/

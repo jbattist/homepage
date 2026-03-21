@@ -96,6 +96,16 @@
           bitratePrecision: 2
           key: "{{HOMEPAGE_VAR_SPEEDTEST}}"
 
+    - Travel Router:
+        href: "http://192.168.8.1"
+        description: Travel Router 
+        icon: "si-openwrt"
+        widget:
+            type: openwrt
+            url: http://192.168.8.1
+            password: "{{HOMEPAGE_VAR_PASSWORD}}"
+            interfaceName: eth0 # optional
+
     - Applications: 
         - Immich:
             href: "http://immich:2283"
@@ -148,6 +158,7 @@
         href: "http://spacebot:19898"
         description: Spacebot
         icon: "si-starship"
+        ping: spacebot.home
     - Bifrost:
         href: "http://bifrost:8080"
         description: Bifrost
