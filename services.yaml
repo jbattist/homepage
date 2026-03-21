@@ -14,6 +14,7 @@
           username: "homepage@pam!homepage"
           password: "{{HOMEPAGE_VAR_PROXMOX}}"
           verify_ssl: false
+          node: proxmox
 
     - Proxmox2:
         href: "http://proxmox2.home:8006"
@@ -25,6 +26,7 @@
           username: "homepage@pam!homepage"
           password: "{{HOMEPAGE_VAR_PROXMOX}}"
           verify_ssl: false
+          node: proxmox2
     
     - Proxmox Backup:
         href: "http://backup2.home:8007"
