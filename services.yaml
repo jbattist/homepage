@@ -125,7 +125,8 @@
             widget:
                 type: paperlessngx
                 url: "http://paperless:8000"
-                key: "{{HOMEPAGE_VAR_IMMICH}}"
+                username: "{{HOMEPAGE_VAR_NAME}}"
+                password: "{{HOMEPAGE_VAR_PASSWORD}}"
                 version: 2
 
         # - Homebox:
