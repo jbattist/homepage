@@ -161,7 +161,7 @@
         icon: "si-starship"
         ping: spacebot.home
     - Bifrost:
-        href: "http://bifrost:8080"
+        href: "http://ollama-vm:8080"
         description: Bifrost
         icon: "si-frontify"
     - OpenRouter:
