@@ -204,11 +204,11 @@
                 type: sabnzbd
                 url: "http://sabnzbd:7777"
                 key: "{{HOMEPAGE_VAR_SABNZBD}}"
-        - Bazarr:
-            href: "http://bazarr:6767"        
-            description: Subtitle Management
-            icon: "si-modin"
-            widget:
-                type: bazarr
-                url: "http://bazarr:6767"
-                key: "{{HOMEPAGE_VAR_BAZARR}}"
+        # - Bazarr:
+        #     href: "http://bazarr:6767"        
+        #     description: Subtitle Management
+        #     icon: "si-modin"
+        #     widget:
+        #         type: bazarr
+        #         url: "http://bazarr:6767"
+        #         key: "{{HOMEPAGE_VAR_BAZARR}}"
