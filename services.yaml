@@ -85,6 +85,15 @@
           url: "http://192.168.1.100"
           key: "{{HOMEPAGE_VAR_PIHOLE_PASSWORD}}"
           version: 6
+    - Pi-hole 2:
+        href: "http://192.168.1.101/admin"
+        description: DNS and Ad Blocking
+        icon: "si-pihole"
+        widget:
+          type: pihole
+          url: "http://192.168.1.101"
+          key: "{{HOMEPAGE_VAR_PASSWORD}}"
+          version: 6
           
     - Speedtest:
         href: "http://speedtest"
