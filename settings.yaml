@@ -33,3 +33,7 @@ layout:
     header: true
     style: column
     rowHeight: 40px
+  Applications:
+    header: true
+    style: column
+    rowHeight: 40px

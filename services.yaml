@@ -15,18 +15,6 @@
           password: "{{HOMEPAGE_VAR_PROXMOX}}"
           verify_ssl: false
           node: proxmox
-
-    - Proxmox2:
-        href: "http://proxmox2.home:8006"
-        description: Proxmox Server
-        icon: "si-proxmox"
-        widget:
-          type: proxmox
-          url: "https://proxmox2.home:8006"
-          username: "homepage@pam!homepage"
-          password: "{{HOMEPAGE_VAR_PROXMOX}}"
-          verify_ssl: false
-          node: proxmox2
     
     - Proxmox Backup:
         href: "http://backup2.home:8007"
@@ -61,6 +49,24 @@
           key: "{{HOMEPAGE_VAR_ARCANE}}"
           fields: ["running", "stopped", "image_updates", "images_unused"] 
 
+    - AI:
+        - Ollama:
+            href: "http://ollama-vm:11434"
+            description: Local AI Model Hosting
+            icon: "si-ollama"
+        - Spacebot:
+            href: "http://spacebot:19898"
+            description: Spacebot
+            icon: "si-starship"
+            ping: spacebot.home
+        - Bifrost:
+            href: "http://ollama-vm:8080"
+            description: Bifrost
+            icon: "si-frontify"
+        - OpenRouter:
+            href: "https://openrouter.ai/activity"
+            description: OpenRouter
+            icon: "si-openrouter"
 - Network:
     - Unifi Controller:
         href: "https://unifi.ui.com/"
@@ -89,7 +95,6 @@
           url: "http://192.168.1.101:8080"
           key: "{{HOMEPAGE_VAR_PASSWORD}}"
           version: 6
-          
     - Speedtest:
         href: "http://speedtest"
         description: Speedtest CLI
@@ -99,11 +104,56 @@
           url: "http://speedtest"
           bitratePrecision: 2
           key: "{{HOMEPAGE_VAR_SPEEDTEST}}"
-
+    - Caddy:
+        href: "http://caddy:2019"
+        description: Caddy Dashboard
+        icon: "si-caddy"
+        widget:
+          type: caddy
+          url: "http://caddy:2019"
+          key: "{{HOMEPAGE_VAR_CADDY}}"
     - Travel Router:
         href: "http://192.168.8.1"
         description: Travel Router 
         icon: "si-openwrt"
+
+    
+- Arr:
+    - Jellyfin:
+        href: "http://jellyfin:8096"
+        description: Media Server
+        icon: "si-jellyfin"
+        widget:
+            type: jellyfin
+            url: "http://jellyfin:8096"
+            key: "{{HOMEPAGE_VAR_JELLYFIN}}"
+        enableBlocks: true
+    - Radarr:
+        href: "http://radarr:7878"        
+        description: Movie Management
+        icon: "si-radarr"
+        widget:
+            type: radarr
+            url: "http://radarr:7878"
+            key: "{{HOMEPAGE_VAR_RADARR}}"
+        enableQueue: true
+    - Sonarr:
+        href: "http://sonarr:8989"
+        description: TV Show Management
+        icon: "si-sonarr"
+        widget:
+            type: sonarr
+            url: "http://sonarr:8989"
+            key: "{{HOMEPAGE_VAR_SONARR}}"
+            enableQueue: true
+    - SABnzbd:
+        href: "http://sabnzbd:7777"        
+        description: Usenet Downloader
+        icon: "si-abdownloadmanager"
+        widget:
+            type: sabnzbd
+            url: "http://sabnzbd:7777"
+            key: "{{HOMEPAGE_VAR_SABNZBD}}"
 
     - Applications: 
         - Immich:
@@ -128,86 +178,12 @@
                 password: "{{HOMEPAGE_VAR_PASSWORD}}"
                 version: 2
 
-        # - Homebox:
-        #     href: "http://homebox:7745"
-        #     description: Home Inventory Management
-        #     icon: "si-homebridge"
-        #     widget:
-        #         type: homebox
-        #         url: "http://homebox:7745"
-        #         username: "{{HOMEPAGE_VAR_EMAIL}}"
-        #         password: "{{HOMEPAGE_VAR_PASSWORD}}"
-
         - Concert Watcher:
             href: "http://spacebot:7474"
             description: Concert Watcher
             icon: "si-applemusic"
             
-        - Home Assistant:
-            href: "http://homeassistant:8123"
-            description: Home Automation
-            icon: "si-homeassistant"
 
 
-- AI:
-    - Ollama:
-        href: "http://ollama-vm:11434"
-        description: Local AI Model Hosting
-        icon: "si-ollama"
-    - Spacebot:
-        href: "http://spacebot:19898"
-        description: Spacebot
-        icon: "si-starship"
-        ping: spacebot.home
-    - Bifrost:
-        href: "http://ollama-vm:8080"
-        description: Bifrost
-        icon: "si-frontify"
-    - OpenRouter:
-        href: "https://openrouter.ai/activity"
-        description: OpenRouter
-        icon: "si-openrouter"
-    - Arr:
-        - Jellyfin:
-            href: "http://jellyfin:8096"
-            description: Media Server
-            icon: "si-jellyfin"
-            widget:
-                type: jellyfin
-                url: "http://jellyfin:8096"
-                key: "{{HOMEPAGE_VAR_JELLYFIN}}"
-            enableBlocks: true
-        - Radarr:
-            href: "http://radarr:7878"        
-            description: Movie Management
-            icon: "si-radarr"
-            widget:
-                type: radarr
-                url: "http://radarr:7878"
-                key: "{{HOMEPAGE_VAR_RADARR}}"
-            enableQueue: true
-        - Sonarr:
-            href: "http://sonarr:8989"
-            description: TV Show Management
-            icon: "si-sonarr"
-            widget:
-                type: sonarr
-                url: "http://sonarr:8989"
-                key: "{{HOMEPAGE_VAR_SONARR}}"
-                enableQueue: true
-        - SABnzbd:
-            href: "http://sabnzbd:7777"        
-            description: Usenet Downloader
-            icon: "si-abdownloadmanager"
-            widget:
-                type: sabnzbd
-                url: "http://sabnzbd:7777"
-                key: "{{HOMEPAGE_VAR_SABNZBD}}"
-        # - Bazarr:
-        #     href: "http://bazarr:6767"        
-        #     description: Subtitle Management
-        #     icon: "si-modin"
-        #     widget:
-        #         type: bazarr
-        #         url: "http://bazarr:6767"
-        #         key: "{{HOMEPAGE_VAR_BAZARR}}"
+
+
