@@ -61,11 +61,6 @@
           key: "{{HOMEPAGE_VAR_ARCANE}}"
           fields: ["running", "stopped", "image_updates", "images_unused"] 
 
-    - Dockge:
-        href: "http://docker:5001"
-        description: Docker Management
-        icon: "si-portainer"
-
 - Network:
     - Unifi Controller:
         href: "https://unifi.ui.com/"
