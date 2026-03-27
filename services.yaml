@@ -104,14 +104,14 @@
           url: "http://speedtest"
           bitratePrecision: 2
           key: "{{HOMEPAGE_VAR_SPEEDTEST}}"
-    - Caddy:
-        href: "http://caddy:2019"
-        description: Caddy Dashboard
-        icon: "si-caddy"
-        widget:
-          type: caddy
-          url: "http://caddy:2019"
-          key: "{{HOMEPAGE_VAR_CADDY}}"
+    # - Caddy:
+    #     href: "http://caddy:2019"
+    #     description: Caddy Dashboard
+    #     icon: "si-caddy"
+    #     widget:
+    #       type: caddy
+    #       url: "http://caddy:2019"
+    #       key: "{{HOMEPAGE_VAR_CADDY}}"
     - Travel Router:
         href: "http://192.168.8.1"
         description: Travel Router 
