@@ -17,12 +17,12 @@
           node: proxmox
     
     - Proxmox Backup:
-        href: "http://backup2.home:8007"
+        href: "http://backup.home:8007"
         description: Proxmox Backup Server
         icon: "si-proxmox"
         widget:
             type: proxmoxbackupserver
-            url: "https://backup2.home:8007"
+            url: "https://backup.home:8007"
             username: "root@pam!homepage"
             password: "{{HOMEPAGE_VAR_PBS}}"
             verify_ssl: false
