@@ -29,11 +29,15 @@ layout:
     header: true
     style: column
     rowHeight: 40px
-  AI:
-    header: true
-    style: column
-    rowHeight: 40px
-  Applications:
-    header: true
-    style: column
-    rowHeight: 40px
+  Other:
+    header: false
+    style: row
+    columns: 3
+    AI:
+      header: true
+      style: column
+      rowHeight: 40px
+    Applications:
+      header: true
+      style: column
+      rowHeight: 40px

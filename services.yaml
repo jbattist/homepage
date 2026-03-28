@@ -49,24 +49,7 @@
           key: "{{HOMEPAGE_VAR_ARCANE}}"
           fields: ["running", "stopped", "image_updates", "images_unused"] 
 
-    - AI:
-        - Ollama:
-            href: "http://ollama-vm:11434"
-            description: Local AI Model Hosting
-            icon: "si-ollama"
-        - Spacebot:
-            href: "http://spacebot:19898"
-            description: Spacebot
-            icon: "si-starship"
-            ping: spacebot.home
-        - Bifrost:
-            href: "http://ollama-vm:8080"
-            description: Bifrost
-            icon: "si-frontify"
-        - OpenRouter:
-            href: "https://openrouter.ai/activity"
-            description: OpenRouter
-            icon: "si-openrouter"
+
 - Network:
     - Unifi Controller:
         href: "https://unifi.ui.com/"
@@ -146,6 +129,10 @@
             url: "http://sonarr:8989"
             key: "{{HOMEPAGE_VAR_SONARR}}"
             enableQueue: true
+    - Lazy Librarian:
+        href: "http://docker.home:5299"        
+        description: eBook Management
+        icon: "si-bookstack"
     - SABnzbd:
         href: "http://sabnzbd:7777"        
         description: Usenet Downloader
@@ -154,7 +141,25 @@
             type: sabnzbd
             url: "http://sabnzbd:7777"
             key: "{{HOMEPAGE_VAR_SABNZBD}}"
-
+- Other:
+    - AI:
+        - Ollama:
+            href: "http://ollama-vm:11434"
+            description: Local AI Model Hosting
+            icon: "si-ollama"
+        - Spacebot:
+            href: "http://spacebot:19898"
+            description: Spacebot
+            icon: "si-starship"
+            ping: spacebot.home
+        - Bifrost:
+            href: "http://ollama-vm:8080"
+            description: Bifrost
+            icon: "si-frontify"
+        - OpenRouter:
+            href: "https://openrouter.ai/activity"
+            description: OpenRouter
+            icon: "si-openrouter"
     - Applications: 
         - Immich:
             href: "http://immich:2283"
@@ -182,7 +187,7 @@
             href: "http://spacebot:7474"
             description: Concert Watcher
             icon: "si-applemusic"
-            
+                
 
 
 
