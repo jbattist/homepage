@@ -37,6 +37,7 @@
           username: "truenas_admin"
           password: "{{HOMEPAGE_VAR_PASSWORD}}"
           enablePools: true
+          version: 2
 
     - Arcane:
         href: "http://docker:3552"
