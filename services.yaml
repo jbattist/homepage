@@ -156,7 +156,7 @@
         - Paperclip:
             href: "http://paperclip.home:3100"
             description: Paperclip
-            icon: "si-paperclip"
+            icon: "si-purescript"
             ping: paperclip.home
         - Bifrost:
             href: "http://ollama-vm.home:8080"
