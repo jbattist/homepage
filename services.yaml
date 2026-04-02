@@ -153,6 +153,11 @@
             description: Spacebot
             icon: "si-starship"
             ping: spacebot.home
+        - Paperclip:
+            href: "http://paperclip.home:3100"
+            description: Paperclip
+            icon: "si-paperclip"
+            ping: paperclip.home
         - Bifrost:
             href: "http://ollama-vm.home:8080"
             description: Bifrost
