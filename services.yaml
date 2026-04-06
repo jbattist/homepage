@@ -45,7 +45,7 @@
         icon: "si-docker"
         widget:
           type: arcane
-          url: "http://docker:3552"
+          url: "http://docker.home:3552"
           env: 0
           key: "{{HOMEPAGE_VAR_ARCANE}}"
           fields: ["running", "stopped", "image_updates", "images_unused"] 
@@ -61,24 +61,24 @@
           url: "https://192.168.1.1"
           key: "{{HOMEPAGE_VAR_UNIFI}}"
 
-    - Pi-hole:
-        href: "http://192.168.1.100:8080/admin"
-        description: DNS and Ad Blocking
-        icon: "si-pihole"
-        widget:
-          type: pihole
-          url: "http://192.168.1.100:8080"
-          key: "{{HOMEPAGE_VAR_PASSWORD}}"
-          version: 6
-    - Pi-hole 2:
-        href: "http://192.168.1.101:8080/admin"
-        description: DNS and Ad Blocking
-        icon: "si-pihole"
-        widget:
-          type: pihole
-          url: "http://192.168.1.101:8080"
-          key: "{{HOMEPAGE_VAR_PASSWORD}}"
-          version: 6
+    # - Pi-hole:
+    #     href: "http://192.168.1.100:8080/admin"
+    #     description: DNS and Ad Blocking
+    #     icon: "si-pihole"
+    #     widget:
+    #       type: pihole
+    #       url: "http://192.168.1.100:8080"
+    #       key: "{{HOMEPAGE_VAR_PASSWORD}}"
+    #       version: 6
+    # - Pi-hole 2:
+    #     href: "http://192.168.1.101:8080/admin"
+    #     description: DNS and Ad Blocking
+    #     icon: "si-pihole"
+    #     widget:
+    #       type: pihole
+    #       url: "http://192.168.1.101:8080"
+    #       key: "{{HOMEPAGE_VAR_PASSWORD}}"
+    #       version: 6
     - Technitium:
         href: "http://192.168.1.10:5380"
         description: DHCP and DNS Server
@@ -88,17 +88,8 @@
           url: "http://192.168.1.10:5380"
           key: "{{HOMEPAGE_VAR_TECHNITIUM}}"
           range: LastDay
-          fields: ["totalQueries", "totalCached", "totalBlocked"]  
-    - Technitium:
-        href: "http://192.168.1.11:5380"
-        description: DHCP and DNS Server
-        icon: "si-dash"
-        widget:
-          type: technitium
-          url: "http://192.168.1.11:5380"
-          key: "{{HOMEPAGE_VAR_TECHNITIUM}}"
-          range: LastDay
-          fields: ["totalQueries", "totalCached", "totalBlocked"]  
+          fields: ["totalQueries", "totalClients", "totalBlocked"]  
+
     - Speedtest:
         href: "http://speedtest.home"
         description: Speedtest CLI
