@@ -79,6 +79,26 @@
           url: "http://192.168.1.101:8080"
           key: "{{HOMEPAGE_VAR_PASSWORD}}"
           version: 6
+    - Technitium:
+        href: "http://192.168.1.10:5380"
+        description: DHCP and DNS Server
+        icon: "si-dash"
+        widget:
+          type: technitium
+          url: "http://192.168.1.10:5380"
+          key: "{{HOMEPAGE_VAR_TECHNITIUM}}"
+          range: LastDay
+          fields: ["totalQueries", "totalCached", "totalBlocked"]  
+    - Technitium:
+        href: "http://192.168.1.11:5380"
+        description: DHCP and DNS Server
+        icon: "si-dash"
+        widget:
+          type: technitium
+          url: "http://192.168.1.11:5380"
+          key: "{{HOMEPAGE_VAR_TECHNITIUM}}"
+          range: LastDay
+          fields: ["totalQueries", "totalCached", "totalBlocked"]  
     - Speedtest:
         href: "http://speedtest.home"
         description: Speedtest CLI
