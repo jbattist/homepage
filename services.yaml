@@ -199,6 +199,19 @@
             href: "http://spacebot.home:7474"
             description: Concert Watcher
             icon: "si-applemusic"
+
+    - Misc:
+        - Proxmox Scripts:
+            icon: si-googledocs
+            href: https://community-scripts.org/
+
+        - SURVIVE:
+            icon: si-fireship
+            href: http://survive/
+
+        - Filen:
+            icon: si-filen
+            href: https://filen.io/
                 
 
 

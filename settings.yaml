@@ -41,3 +41,7 @@ layout:
       header: true
       style: column
       rowHeight: 40px
+    Misc:
+      header: true
+      style: column
+      rowHeight: 40px

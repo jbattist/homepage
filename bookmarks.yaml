@@ -2,18 +2,4 @@
 # For configuration options and examples, please see:
 # https://gethomepage.dev/configs/bookmarks
 
-- Homelab:
-    - Proxmox Scripts:
-        - icon: si-googledocs
-          href: https://community-scripts.org/
 
-- SURVIVE:
-    - Portal:
-        - icon: si-fireship
-          href: http://survive/
-
-
-- Filen:
-    - Filen:
-        - icon: si-filen
-          href: https://filen.io/
