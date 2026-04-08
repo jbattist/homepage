@@ -99,6 +99,10 @@
           url: "http://speedtest.home"
           bitratePrecision: 2
           key: "{{HOMEPAGE_VAR_SPEEDTEST}}"
+    - Homelable:
+        icon: si-homebridge
+        ping: homelable.home
+        href: http://homelable.home:3000
     # - Caddy:
     #     href: "http://dockerpi.home"
     #     description: Caddy Dashboard
@@ -209,10 +213,19 @@
             icon: si-fireship
             href: http://survive/
 
-        - Filen:
-            icon: si-filen
-            href: https://filen.io/
-                
+        - FreshRSS:
+            icon: si-freshrss
+            href: http://freshrss.home
+            widget:
+                type: freshrss
+                url: "http://freshrss.home"
+                username: "{{HOMEPAGE_VAR_NAME}}"
+                password: "{{HOMEPAGE_VAR_PASSWORD}}"
+        - BirdNet:
+            icon: si-thunderbird
+            ping: birdnet.home
+            href: http://birdnet.home:8080
+
 
 
 
