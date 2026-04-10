@@ -221,11 +221,14 @@
                 url: "http://freshrss.home"
                 username: "{{HOMEPAGE_VAR_NAME}}"
                 password: "{{HOMEPAGE_VAR_PASSWORD}}"
-        - BirdNet:
+        - BirdNet Home:
             icon: si-thunderbird
             ping: birdnet.home
             href: http://birdnet.home:8080
-
+        - BirdNet Lake:
+            icon: si-thunderbird
+            ping: dockerlake.home
+            href: http://dockerlake.home:8080
 
 
 
