@@ -228,7 +228,7 @@
         - BirdNet Lake:
             icon: si-thunderbird
             ping: dockerlake.home
-            href: http://dockerlake.home:8080
+            href: http://dockerlake.lake:8080
 
 
 
