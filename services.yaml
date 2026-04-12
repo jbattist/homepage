@@ -50,7 +50,6 @@
           key: "{{HOMEPAGE_VAR_ARCANE}}"
           fields: ["running", "stopped", "image_updates", "images_unused"] 
 
-
 - Network:
     - Unifi Controller:
         href: "https://unifi.ui.com/"
@@ -198,21 +197,6 @@
                 username: "{{HOMEPAGE_VAR_NAME}}"
                 password: "{{HOMEPAGE_VAR_PASSWORD}}"
                 version: 2
-
-        - Concert Watcher:
-            href: "http://spacebot.home:7474"
-            description: Concert Watcher
-            icon: "si-applemusic"
-
-    - Misc:
-        - Proxmox Scripts:
-            icon: si-googledocs
-            href: https://community-scripts.org/
-
-        - SURVIVE:
-            icon: si-fireship
-            href: http://survive/
-
         - FreshRSS:
             icon: si-freshrss
             href: http://freshrss.home
@@ -221,6 +205,21 @@
                 url: "http://freshrss.home"
                 username: "{{HOMEPAGE_VAR_NAME}}"
                 password: "{{HOMEPAGE_VAR_PASSWORD}}"
+
+    - Misc:
+        - Proxmox Scripts:
+            icon: si-googledocs
+            href: https://community-scripts.org/
+
+        - SURVIVE:
+            icon: si-fireship
+            ping: survive.home
+            href: http://survive.home/
+
+        - Concert Watcher:
+            href: "http://spacebot.home:7474"
+            description: Concert Watcher
+            icon: "si-applemusic"
         - BirdNet Home:
             icon: si-thunderbird
             ping: birdnet.home
