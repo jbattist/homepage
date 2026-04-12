@@ -101,6 +101,7 @@
     - Homelable:
         icon: si-homebridge
         ping: homelable.home
+        description: Home Network Visualizer
         href: http://homelable.home:3000
     # - Caddy:
     #     href: "http://dockerpi.home"
@@ -159,21 +160,21 @@
             icon: "si-ollama"
         - Spacebot:
             href: "http://spacebot.home:19898"
-            description: Spacebot
+            description: Spacebot Agent Orchestrator
             icon: "si-starship"
             ping: spacebot.home
         - Paperclip:
             href: "http://paperclip.home:3100"
-            description: Paperclip
+            description: Paperclip Agent Orchestrator
             icon: "si-purescript"
             ping: paperclip.home
         - Bifrost:
             href: "http://ollama-vm.home:8080"
-            description: Bifrost
+            description: Local LLM Router
             icon: "si-frontify"
         - OpenRouter:
             href: "https://openrouter.ai/activity"
-            description: OpenRouter
+            description: Cloud LLM Router
             icon: "si-openrouter"
     - Applications: 
         - Immich:
@@ -199,6 +200,7 @@
                 version: 2
         - FreshRSS:
             icon: si-freshrss
+            description: RSS Reader
             href: http://freshrss.home
             widget:
                 type: freshrss
@@ -209,24 +211,29 @@
     - Misc:
         - Proxmox Scripts:
             icon: si-googledocs
+            description: Proxmox Community Scripts
             href: https://community-scripts.org/
 
         - SURVIVE:
             icon: si-fireship
+            description: Offline Grab and Go Server
             ping: survive.home
             href: http://survive.home/
 
         - Concert Watcher:
             href: "http://spacebot.home:7474"
-            description: Concert Watcher
             icon: "si-applemusic"
+            description: Spotify playslist concert notifier
+        
         - BirdNet Home:
             icon: si-thunderbird
             ping: birdnet.home
+            description: Wildlife Sounds - Home Instance 
             href: http://birdnet.home:8080
         - BirdNet Lake:
             icon: si-thunderbird
             ping: dockerlake.lake
+            description: Wildlife Sounds - Lake Instance
             href: http://dockerlake.lake:8080
 
 
