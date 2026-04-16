@@ -159,6 +159,14 @@
             href: "http://ollama-vm.home:11434"
             description: Local AI Model Hosting
             icon: "si-ollama"
+        - Bifrost:
+            href: "http://ollama-vm.home:8080"
+            description: Local LLM Router
+            icon: "si-frontify"
+        - OpenRouter:
+            href: "https://openrouter.ai/activity"
+            description: Cloud LLM Router
+            icon: "si-openrouter"
         - Spacebot:
             href: "http://spacebot.home:19898"
             description: Spacebot Agent Orchestrator
@@ -169,14 +177,12 @@
             description: Paperclip Agent Orchestrator
             icon: "si-purescript"
             ping: paperclip.home
-        - Bifrost:
-            href: "http://ollama-vm.home:8080"
-            description: Local LLM Router
-            icon: "si-frontify"
-        - OpenRouter:
-            href: "https://openrouter.ai/activity"
-            description: Cloud LLM Router
-            icon: "si-openrouter"
+        - Hermes:
+            href: "http://hermes.home:9119/"
+            description: Hermes Agent Dashboard
+            icon: "si-hermes"
+            ping: hermes.home
+
     - Applications: 
         - Immich:
             href: "http://immich.home:2283"
