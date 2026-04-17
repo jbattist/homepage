@@ -111,6 +111,11 @@
     #     widget:
     #       type: caddy
     #       url: "http://192.168.1.100:2019"
+    - Borg:
+        href: "http://borg.home:8081"
+        description: Borg Backup Server
+        icon: "si-borgbackup"
+        ping: borg.home
 
     
 - Arr:
