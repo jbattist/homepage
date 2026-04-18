@@ -49,6 +49,11 @@
           env: 0
           key: "{{HOMEPAGE_VAR_ARCANE}}"
           fields: ["running", "stopped", "image_updates", "images_unused"] 
+    - Borg:
+        href: "http://borg.home:8081"
+        description: Borg Backup Server
+        icon: "si-borgbackup"
+        ping: borg.home
 
 
 - Network:
@@ -111,11 +116,18 @@
     #     widget:
     #       type: caddy
     #       url: "http://192.168.1.100:2019"
-    - Borg:
-        href: "http://borg.home:8081"
-        description: Borg Backup Server
-        icon: "si-borgbackup"
-        ping: borg.home
+    - Beszel:
+        href: "http://docker.home:8090"
+        description: Network Graph Visualization
+        icon: "si-bazel"
+        ping: docker.home
+        widget:
+          type: beszel
+          url: "http://docker.home:8090"
+          username: "{{HOMEPAGE_VAR_EMAIL}}"
+          password: "{{HOMEPAGE_VAR_PASSWORD}}"
+          version: 2
+
 
     
 - Arr:
