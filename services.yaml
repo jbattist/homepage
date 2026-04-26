@@ -127,8 +127,17 @@
           username: "{{HOMEPAGE_VAR_EMAIL}}"
           password: "{{HOMEPAGE_VAR_PASSWORD}}"
           version: 2
-
-
+    - Grafana:
+        href: "http://docker.home:3001"
+        description: Observability Dashboards
+        icon: si-grafana
+        widget:
+            type: grafana
+            version: 2 # optional, default is 1
+            url: http://docker.home:3001
+            username: "admin"
+            password: "{{HOMEPAGE_VAR_PASSWORD}}"
+            fields: ["dashboards", "datasources", "totalalerts"]
     
 - Arr:
     - Jellyfin:
@@ -231,6 +240,14 @@
                 url: "http://freshrss.home"
                 username: "{{HOMEPAGE_VAR_NAME}}"
                 password: "{{HOMEPAGE_VAR_PASSWORD}}"
+        - n8n:
+            icon: si-n8n
+            description: Workflow and Automations
+            href: "http://n8n.home:5678"
+        - Actual Budget:
+            icon: si-actualbudget
+            description: Personal Finance Workflow
+            href: "http://docker.home:5006"
 
     - Misc:
         - Proxmox Scripts:
