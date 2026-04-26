@@ -179,6 +179,11 @@
             type: sabnzbd
             url: "http://sabnzbd.home:7777"
             key: "{{HOMEPAGE_VAR_SABNZBD}}"
+    - Yamtrack:
+        href: "http://yamtrack.home:8000"
+        description: Catalog tracker
+        icon: "si-trakt"
+        ping: yamtrack.home
 - Other:
     - AI:
         - Ollama:
