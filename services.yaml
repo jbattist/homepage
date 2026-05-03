@@ -128,13 +128,13 @@
           password: "{{HOMEPAGE_VAR_PASSWORD}}"
           version: 2
     - Grafana:
-        href: "http://docker.home:3001"
+        href: "http://tensor.home:3000"
         description: Observability Dashboards
         icon: si-grafana
         widget:
             type: grafana
             version: 2 # optional, default is 1
-            url: http://docker.home:3001
+            url: http://tensor.home:3000
             username: "admin"
             password: "{{HOMEPAGE_VAR_PASSWORD}}"
             fields: ["dashboards", "datasources", "totalalerts"]
