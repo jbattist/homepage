@@ -1,7 +1,5 @@
 
 ---
-# For configuration options and examples, please see:
-# https://gethomepage.dev/configs/services/
 
 - Infrastructure:
     - Proxmox:
@@ -66,28 +64,12 @@
           url: "https://192.168.1.1"
           key: "{{HOMEPAGE_VAR_UNIFI}}"
 
-    # - Pi-hole:
-    #     href: "http://192.168.1.100:8080/admin"
-    #     description: DNS and Ad Blocking
-    #     icon: "si-pihole"
-    #     widget:
-    #       type: pihole
-    #       url: "http://192.168.1.100:8080"
-    #       key: "{{HOMEPAGE_VAR_PASSWORD}}"
-    #       version: 6
-    # - Pi-hole 2:
-    #     href: "http://192.168.1.101:8080/admin"
-    #     description: DNS and Ad Blocking
-    #     icon: "si-pihole"
-    #     widget:
-    #       type: pihole
-    #       url: "http://192.168.1.101:8080"
-    #       key: "{{HOMEPAGE_VAR_PASSWORD}}"
-    #       version: 6
     - Technitium:
         href: "http://192.168.1.10:5380"
         description: DHCP and DNS Server
         icon: "si-dash"
+        server: dockerpi
+        container: technitium-dns1
         widget:
           type: technitium
           url: "http://192.168.1.10:5380"
@@ -99,16 +81,21 @@
         href: "http://speedtest.home"
         description: Speedtest CLI
         icon: "si-speedtest"
+        proxmoxNode: proxmox
+        proxmoxVMID: 109
+        proxmoxType: lxc
         widget:
           type: speedtest
           url: "http://speedtest.home"
           bitratePrecision: 2
           key: "{{HOMEPAGE_VAR_SPEEDTEST}}"
+    
     - Homelable:
         icon: si-homebridge
         ping: homelable.home
         description: Home Network Visualizer
         href: http://homelable.home:3000
+    
     # - Caddy:
     #     href: "http://dockerpi.home"
     #     description: Caddy Dashboard
@@ -116,6 +103,7 @@
     #     widget:
     #       type: caddy
     #       url: "http://192.168.1.100:2019"
+
     - Beszel:
         href: "http://docker.home:8090"
         description: Network Graph Visualization
@@ -127,6 +115,7 @@
           username: "{{HOMEPAGE_VAR_EMAIL}}"
           password: "{{HOMEPAGE_VAR_PASSWORD}}"
           version: 2
+    
     - Grafana:
         href: "http://tensor.home:3000"
         description: Observability Dashboards
@@ -144,6 +133,9 @@
         href: "http://jellyfin.home:8096"
         description: Media Server
         icon: "si-jellyfin"
+        proxmoxNode: proxmox
+        proxmoxVMID: 102
+        proxmoxType: lxc
         widget:
             type: jellyfin
             url: "http://jellyfin.home:8096"
@@ -209,9 +201,11 @@
             icon: "si-purescript"
             ping: paperclip.home
         - Hermes:
-            href: "http://hermes.home:9119/"
+            href: "http://hermes.home:9119"
             description: Hermes Agent Dashboard
             icon: "si-hermes"
+            proxmoxNode: proxmox
+            proxmoxVMID: 114
             ping: hermes.home
 
     - Applications: 

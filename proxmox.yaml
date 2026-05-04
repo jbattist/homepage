@@ -1,5 +1,7 @@
 ---
-# pve:
-#   url: https://proxmox.host.or.ip:8006
-#   token: username@pam!Token ID
-#   secret: secret
+proxmox:
+  url: https://proxmox.home:8006
+  token: homepage@pam!homepage
+  secret: "{{HOMEPAGE_VAR_PROXMOX}}"
+  node: proxmox
+  verify_tls: false
