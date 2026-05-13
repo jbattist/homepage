@@ -9,3 +9,9 @@ docker:
 dockerpi:
   host: dockerpi.home
   port: 2375
+
+dockerlake:
+  host: dockerlake.lake
+  port: 2375
+
+

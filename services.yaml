@@ -43,6 +43,8 @@
         href: "http://docker.home:3552"
         description: Docker Dashboard
         icon: "si-docker"
+        server: docker
+        container: arcane
         widget:
           type: arcane
           url: "http://docker.home:3552"
@@ -109,7 +111,8 @@
         href: "http://docker.home:8090"
         description: Network Graph Visualization
         icon: "si-bazel"
-        ping: docker.home
+        server: docker
+        container: beszel
         widget:
           type: beszel
           url: "http://docker.home:8090"
@@ -170,6 +173,8 @@
         href: "http://docker.home:5299"        
         description: eBook Management
         icon: "si-bookstack"
+        server: docker
+        container: lazylibrarian
     - SABnzbd:
         href: "http://sabnzbd.home:7777"        
         description: Usenet Downloader
@@ -270,6 +275,8 @@
             icon: si-actualbudget
             description: Personal Finance Workflow
             href: "http://docker.home:5006"
+            server: docker
+            container: actual_budget
 
     - Misc:
         - Proxmox Scripts:
@@ -294,7 +301,8 @@
             proxmoxType: lxc
         - BirdNet Lake:
             icon: si-thunderbird
-            ping: dockerlake.lake
+            server: dockerlake
+            container: birdnet-go
             description: Wildlife Sounds - Lake Instance
             href: http://dockerlake.lake:8080
 
