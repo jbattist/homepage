@@ -56,7 +56,12 @@
         description: Borg Backup Server
         icon: "si-borgbackup"
         ping: borg.home
-
+    - Ansible:  
+        href: "http://semaphore.home:3000"
+        description: Ansible Dashboard
+        icon: "si-ansible"
+   
+          
 - Network:
     - Unifi Controller:
         href: "https://unifi.ui.com/"
