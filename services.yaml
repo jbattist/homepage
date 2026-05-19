@@ -309,8 +309,13 @@
             server: dockerlake
             container: birdnet-go
             description: Wildlife Sounds - Lake Instance
-            href: http://dockerlake.lake:8080
-
+            href: http://dockerlake.lake:8080 
+        - Hometime:
+            icon: si-lazyvim
+            server: docker
+            container: Hometime
+            description: Gamification of being a homebody
+            href: http://docker.home:5050
 
 
 
