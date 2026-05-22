@@ -60,6 +60,16 @@
         href: "http://semaphore.home:3000"
         description: Ansible Dashboard
         icon: "si-ansible"
+        proxmoxNode: proxmox
+        proxmoxVMID: 122
+        proxmoxType: lxc
+    - Patchmon:
+        href: "http://patchmon.home:3000"
+        description: Patch Management Dashboard
+        icon: "si-packer"
+        proxmoxNode: proxmox
+        proxmoxVMID: 125
+        proxmoxType: lxc
    
           
 - Network:
@@ -313,7 +323,7 @@
         - Hometime:
             icon: si-lazyvim
             server: docker
-            container: Hometime
+            container: hometime
             description: Gamification of being a homebody
             href: http://docker.home:5050
 
