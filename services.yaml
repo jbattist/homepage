@@ -190,6 +190,12 @@
         icon: "si-bookstack"
         server: docker
         container: lazylibrarian
+    - Book Orbit:
+        href: "http://docker.home:3030"        
+        description: eBook Library and Reading Tracker
+        icon: "si-gitbook"
+        server: docker
+        container: bookorbit-app
     - SABnzbd:
         href: "http://sabnzbd.home:7777"        
         description: Usenet Downloader
