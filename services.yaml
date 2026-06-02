@@ -298,6 +298,12 @@
             href: "http://docker.home:5006"
             server: docker
             container: actual_budget
+        - Last Glance:
+            icon: si-lastfm
+            description: Frequency tracker
+            href: "http://docker.home:3101"
+            server: docker
+            container: lastglance-app-1
 
     - Misc:
         - Proxmox Scripts:
