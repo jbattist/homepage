@@ -51,11 +51,13 @@
           env: 0
           key: "{{HOMEPAGE_VAR_ARCANE}}"
           fields: ["running", "stopped", "image_updates", "images_unused"] 
+    
     - Borg:
         href: "http://borg.home:8081"
         description: Borg Backup Server
         icon: "si-borgbackup"
         ping: borg.home
+    
     - Ansible:  
         href: "http://semaphore.home:3000"
         description: Ansible Dashboard
@@ -63,6 +65,7 @@
         proxmoxNode: proxmox
         proxmoxVMID: 122
         proxmoxType: lxc
+    
     - Patchmon:
         href: "http://patchmon.home:3000"
         description: Patch Management Dashboard
@@ -113,27 +116,6 @@
         ping: homelable.home
         description: Home Network Visualizer
         href: http://homelable.home:3000
-    
-    # - Caddy:
-    #     href: "http://dockerpi.home"
-    #     description: Caddy Dashboard
-    #     icon: "si-caddy"
-    #     widget:
-    #       type: caddy
-    #       url: "http://192.168.1.100:2019"
-
-    - Beszel:
-        href: "http://docker.home:8090"
-        description: Network Graph Visualization
-        icon: "si-bazel"
-        server: docker
-        container: beszel
-        widget:
-          type: beszel
-          url: "http://docker.home:8090"
-          username: "{{HOMEPAGE_VAR_EMAIL}}"
-          password: "{{HOMEPAGE_VAR_PASSWORD}}"
-          version: 2
     
     - Grafana:
         href: "http://tensor.home:3000"
@@ -240,6 +222,10 @@
             href: "http://ollama-vm.home:8080"
             description: Local LLM Router
             icon: "si-frontify"
+        - OmniRoute:
+            href: "http://ollama-vm.home:20128"
+            description: Local LLM Router
+            icon: "si-tqdm"
         - OpenRouter:
             href: "https://openrouter.ai/activity"
             description: Cloud LLM Router
@@ -301,22 +287,6 @@
                 url: "http://freshrss.home"
                 username: "{{HOMEPAGE_VAR_NAME}}"
                 password: "{{HOMEPAGE_VAR_PASSWORD}}"
-        - n8n:
-            icon: si-n8n
-            description: Workflow and Automations
-            href: "http://n8n.home:5678"
-        - Actual Budget:
-            icon: si-actualbudget
-            description: Personal Finance Workflow
-            href: "http://docker.home:5006"
-            server: docker
-            container: actual_budget
-        - Last Glance:
-            icon: si-lastfm
-            description: Frequency tracker
-            href: "http://docker.home:3101"
-            server: docker
-            container: lastglance-app-1
 
     - Misc:
         - Proxmox Scripts:
