@@ -129,6 +129,43 @@
             password: "{{HOMEPAGE_VAR_PASSWORD}}"
             fields: ["dashboards", "datasources", "totalalerts"]
     
+    - Pulse:
+        href: "http://pulse.home:7655"
+        description: Network Monitoring
+        icon: "si-puppet"
+        proxmoxNode: proxmox
+        proxmoxVMID: 123
+        proxmoxType: lxc
+        widgets:
+            - type: customapi
+              url: http://pulse.home:7655/api/resources/stats
+              headers:
+                  X-API-Token: "{{HOMEPAGE_VAR_PULSE}}"
+              mappings:
+                  - field: byType.node
+                    label: Nodes
+                    format: number
+                  - field: byType.vm
+                    label: VMs
+                    format: number
+                  - field: byType.container
+                    label: LXCs
+                    format: number
+            - type: customapi
+              url: http://pulse.home:7655/api/resources/stats
+              headers:
+                  X-API-Token: "{{HOMEPAGE_VAR_PULSE}}"
+              mappings:
+                  - field: byType.docker-container
+                    label: Docker
+                    format: number
+                  - field: byType.storage
+                    label: Storage
+                    format: number
+                  - field: withAlerts
+                    label: Alerts
+                    format: number
+    
 - Arr:
     - Jellyfin:
         href: "http://jellyfin.home:8096"
