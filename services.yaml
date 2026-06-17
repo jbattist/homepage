@@ -267,6 +267,10 @@
             href: "https://openrouter.ai/activity"
             description: Cloud LLM Router
             icon: "si-openrouter"
+        - OpenWeb UI:
+            href: "http://hermes.home"
+            description: Local LLM Playground
+            icon: "si-livechat"
         - Spacebot:
             href: "http://spacebot.home:19898"
             description: Spacebot Agent Orchestrator
