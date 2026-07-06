@@ -292,8 +292,8 @@
                   icon: "si-purescript"
                   ping: paperclip.home
             - Hermes:
-                  href: "http://hermes.home:9119"
-                  description: Hermes Agent Dashboard
+                  href: "http://hermes.home:8787"
+                  description: Hermes Agent UI
                   icon: "si-hermes"
                   proxmoxNode: proxmox
                   proxmoxVMID: 114
