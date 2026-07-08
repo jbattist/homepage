@@ -273,10 +273,6 @@
                   href: "http://heimdallama.home"
                   description: Local LLM Router
                   icon: "si-frontify"
-            - OmniRoute:
-                  href: "http://ollama-vm.home:20128"
-                  description: Local LLM Router
-                  icon: "si-tqdm"
             - OpenRouter:
                   href: "https://openrouter.ai/activity"
                   description: Cloud LLM Router
@@ -290,11 +286,11 @@
                   description: Spacebot Agent Orchestrator
                   icon: "si-starship"
                   ping: spacebot.home
-            - Paperclip:
-                  href: "http://paperclip.home:3100"
-                  description: Paperclip Agent Orchestrator
-                  icon: "si-purescript"
-                  ping: paperclip.home
+            # - Paperclip:
+            #       href: "http://paperclip.home:3100"
+            #       description: Paperclip Agent Orchestrator
+            #       icon: "si-purescript"
+            #       ping: paperclip.home
             - Hermes:
                   href: "http://hermes.home:8787"
                   description: Hermes Agent UI
