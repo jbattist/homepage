@@ -269,6 +269,10 @@
                   href: "http://ollama-vm.home:8080"
                   description: Local LLM Router
                   icon: "si-frontify"
+            - Heimdallama:
+                  href: "http://heimdallama.home"
+                  description: Local LLM Router
+                  icon: "si-frontify"
             - OmniRoute:
                   href: "http://ollama-vm.home:20128"
                   description: Local LLM Router
