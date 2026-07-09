@@ -37,6 +37,18 @@
                 enablePools: true
                 version: 2
 
+      - TrueNAS Lake:
+            href: "http://truenaslake.lake"
+            description: TrueNAS Storage - Lake
+            icon: "si-truenas"
+            widget:
+                type: truenas
+                url: "http://truenaslake.lake"
+                username: "truenas_admin"
+                password: "{{HOMEPAGE_VAR_PASSWORD}}"
+                enablePools: true
+                version: 2
+
       - Arcane:
             href: "http://docker.home:3552"
             description: Docker Dashboard
