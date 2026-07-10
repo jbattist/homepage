@@ -258,7 +258,7 @@
             description: Indexer Manager
             icon: "si-poly"
             proxmoxNode: proxmox
-            proxmoxVMID: 124
+            proxmoxVMID: 132
             proxmoxType: lxc
             widget:
                 type: prowlarr
@@ -266,6 +266,19 @@
                 key: "{{HOMEPAGE_VAR_PROWLARR}}"
                 fields:
                     ["numberOfGrabs", "numberOfQueries", "numberOfFailGrabs"]
+      - Seerr:
+            href: "http://seerr.home:5055"
+            description: Media Library Manager
+            icon: "si-searxng"
+            proxmoxNode: proxmox
+            proxmoxVMID: 132
+            proxmoxType: lxc
+            widget:
+                type: seerr
+                url: "http://seerr.home:5055"
+                key: "{{HOMEPAGE_VAR_SEERR}}"
+                fields:
+                    ["pending", "available", "issues"]
 
 # ── Bottom row ──────────────────────────────────────────────────────
 
