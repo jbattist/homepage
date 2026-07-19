@@ -284,24 +284,24 @@
 
 - Other:
       - AI:
-            - Ollama:
-                  href: "http://ollama-vm.home:11434"
-                  description: Local AI Model Hosting
-                  icon: "si-ollama"
-                  proxmoxNode: proxmox
-                  proxmoxVMID: 110
-            - Bifrost:
-                  href: "http://ollama-vm.home:8080"
-                  description: Local LLM Router
-                  icon: "si-frontify"
+            # - Ollama:
+            #       href: "http://ollama-vm.home:11434"
+            #       description: Local AI Model Hosting
+            #       icon: "si-ollama"
+            #       proxmoxNode: proxmox
+            #       proxmoxVMID: 110
+            # - Bifrost:
+            #       href: "http://ollama-vm.home:8080"
+            #       description: Local LLM Router
+            #       icon: "si-frontify"
             - Heimdallama:
                   href: "http://heimdallama.home"
                   description: Local LLM Router
                   icon: "si-frontify"
-            - OpenRouter:
-                  href: "https://openrouter.ai/activity"
-                  description: Cloud LLM Router
-                  icon: "si-openrouter"
+            # - OpenRouter:
+            #       href: "https://openrouter.ai/activity"
+            #       description: Cloud LLM Router
+            #       icon: "si-openrouter"
             - OpenWeb UI:
                   href: "http://hermes.home"
                   description: Local LLM Playground
@@ -316,6 +316,12 @@
             #       description: Paperclip Agent Orchestrator
             #       icon: "si-purescript"
             #       ping: paperclip.home
+            - Hermes Dashboard:
+                  href: "http://hermes.home:9119"
+                  description: Hermes Agent Dashboard
+                  icon: "si-hermes"
+                  proxmoxNode: proxmox
+                  proxmoxVMID: 114
             - Hermes:
                   href: "http://hermes.home:8787"
                   description: Hermes Agent UI
