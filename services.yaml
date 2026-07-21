@@ -298,6 +298,10 @@
                   href: "http://heimdallama.home"
                   description: Local LLM Router
                   icon: "si-frontify"
+            - Manifest:
+                  href: "http://heimdallama.home:2099"
+                  description: Local LLM Router
+                  icon: "si-roots"
             # - OpenRouter:
             #       href: "https://openrouter.ai/activity"
             #       description: Cloud LLM Router
@@ -369,6 +373,14 @@
                       url: "http://freshrss.home"
                       username: "{{HOMEPAGE_VAR_NAME}}"
                       password: "{{HOMEPAGE_VAR_PASSWORD}}"
+            - SearXNG:
+                  icon: si-searxng
+                  description: Self-hosted Search Engine
+                  href: http://searxng.home
+                  proxmoxNode: proxmox
+                  proxmoxVMID: 133
+                  proxmoxType: lxc
+
 
       - Misc:
             - Proxmox Scripts:
