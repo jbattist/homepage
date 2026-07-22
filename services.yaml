@@ -361,6 +361,7 @@
                       username: "{{HOMEPAGE_VAR_NAME}}"
                       password: "{{HOMEPAGE_VAR_PASSWORD}}"
                       version: 2
+            
             - FreshRSS:
                   icon: si-freshrss
                   description: RSS Reader
@@ -373,6 +374,16 @@
                       url: "http://freshrss.home"
                       username: "{{HOMEPAGE_VAR_NAME}}"
                       password: "{{HOMEPAGE_VAR_PASSWORD}}"
+            
+            - Forgejo:
+                  icon: si-forgejo
+                  description: Self-hosted Git Server
+                  href: http://forgejo.home
+                  proxmoxNode: proxmox
+                  proxmoxVMID: 134
+                  proxmoxType: lxc
+                  
+
             - SearXNG:
                   icon: si-searxng
                   description: Self-hosted Search Engine
