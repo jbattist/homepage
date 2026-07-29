@@ -302,6 +302,10 @@
                   href: "http://heimdallama.home:2099"
                   description: Local LLM Router
                   icon: "si-roots"
+            - OmniRoute:
+                  href: "http://heimdallama.home:20128"
+                  description: Local LLM Router
+                  icon: "si-ionic"
             # - OpenRouter:
             #       href: "https://openrouter.ai/activity"
             #       description: Cloud LLM Router
