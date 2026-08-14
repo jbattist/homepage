@@ -294,14 +294,14 @@
             #       href: "http://ollama-vm.home:8080"
             #       description: Local LLM Router
             #       icon: "si-frontify"
-            - Heimdallama:
-                  href: "http://heimdallama.home"
-                  description: Local LLM Router
-                  icon: "si-frontify"
-            - Manifest:
-                  href: "http://heimdallama.home:2099"
-                  description: Local LLM Router
-                  icon: "si-roots"
+            # - Heimdallama:
+            #       href: "http://heimdallama.home"
+            #       description: Local LLM Router
+            #       icon: "si-frontify"
+            # - Manifest:
+            #       href: "http://heimdallama.home:2099"
+            #       description: Local LLM Router
+            #       icon: "si-roots"
             - OmniRoute:
                   href: "http://heimdallama.home:20128"
                   description: Local LLM Router
@@ -328,14 +328,16 @@
                   href: "http://hermes.home:9119"
                   description: Hermes Agent Dashboard
                   icon: "si-hermes"
-                  proxmoxNode: proxmox
-                  proxmoxVMID: 114
+                  ping: hermes.home
+                  # proxmoxNode: proxmox
+                  # proxmoxVMID: 114
             - Hermes:
                   href: "http://hermes.home:8787"
                   description: Hermes Agent UI
                   icon: "si-hermes"
-                  proxmoxNode: proxmox
-                  proxmoxVMID: 114
+                  ping: hermes.home
+                  # proxmoxNode: proxmox
+                  # proxmoxVMID: 114
 
       - Applications:
             - Immich:
