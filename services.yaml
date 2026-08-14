@@ -163,13 +163,13 @@
                   headers:
                       X-API-Token: "{{HOMEPAGE_VAR_PULSE}}"
                   mappings:
-                      - field: byType.node
+                      - field: byType.agent
                         label: Nodes
                         format: number
                       - field: byType.vm
                         label: VMs
                         format: number
-                      - field: byType.container
+                      - field: byType.system-container
                         label: LXCs
                         format: number
                 - type: customapi
@@ -177,13 +177,13 @@
                   headers:
                       X-API-Token: "{{HOMEPAGE_VAR_PULSE}}"
                   mappings:
-                      - field: byType.docker-container
+                      - field: byType.app-container
                         label: Docker
                         format: number
                       - field: byType.storage
                         label: Storage
                         format: number
-                      - field: withAlerts
+                      - field: byStatus.warning
                         label: Alerts
                         format: number
 
