@@ -186,6 +186,13 @@
                       - field: byStatus.warning
                         label: Alerts
                         format: number
+      - Victoria Logs:
+            href: "http://tensor.home:9428/select/vmui"
+            description: Victoria Logs
+            icon: "si-victoriametrics"
+            server: docker
+            container: victoria-logs
+
 
 - Arr:
       - Jellyfin:
