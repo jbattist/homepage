@@ -14,4 +14,6 @@ dockerlake:
   host: dockerlake.lake
   port: 2375
 
-
+tensor:
+  host: tensor.home
+  port: 2375

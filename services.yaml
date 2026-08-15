@@ -190,7 +190,7 @@
             href: "http://tensor.home:9428/select/vmui"
             description: Victoria Logs
             icon: "si-victoriametrics"
-            server: docker
+            server: tensor
             container: victoria-logs
 
 
