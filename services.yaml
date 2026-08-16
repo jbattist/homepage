@@ -345,6 +345,12 @@
                   ping: hermes.home
                   # proxmoxNode: proxmox
                   # proxmoxVMID: 114
+            - Deepseek Harness:
+                  href: "https://heimdallama.home:8380"
+                  description: Deepseek Harness
+                  icon: "si-deepseek"
+                  server: heimdallama
+                  container: deepseek-harness
 
       - Applications:
             - Immich:

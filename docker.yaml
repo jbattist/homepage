@@ -17,3 +17,7 @@ dockerlake:
 tensor:
   host: tensor.home
   port: 2375
+  
+heimdallama:
+  host: heimdallama.home
+  port: 2375
