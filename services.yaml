@@ -121,14 +121,14 @@
                 key: "{{HOMEPAGE_VAR_SPEEDTEST}}"
 
       - Speedtest Lake:
-            href: "http://dockerlake.lake:8888"
+            href: "http://truenaslake.lake:8080/"
             description: Speedtest CLI Lake
             icon: "si-speedtest"
-            server: dockerlake
-            container: speedtest-tracker
+            # server: dockerlake
+            # container: speedtest-tracker
             widget:
                 type: speedtest
-                url: "http://dockerlake.lake:8888"
+                url: "http://truenaslake.lake:8080/"
                 bitratePrecision: 2
                 key: "{{HOMEPAGE_VAR_SPEEDTEST_LAKE}}"
 
