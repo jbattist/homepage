@@ -190,8 +190,8 @@
             href: "http://tensor.home:9428/select/vmui"
             description: Victoria Logs
             icon: "si-victoriametrics"
-            server: tensor
-            container: victoria-logs
+            # server: tensor
+            # container: victoria-logs
 
 
 - Arr:
@@ -349,8 +349,8 @@
                   href: "https://heimdallama.home:8380"
                   description: Deepseek Harness
                   icon: "si-deepseek"
-                  server: heimdallama
-                  container: deepseek-harness
+                  # server: heimdallama
+                  # container: deepseek-harness
 
       - Applications:
             - Immich:
