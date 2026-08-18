@@ -406,7 +406,7 @@
             - SearXNG:
                   icon: si-searxng
                   description: Self-hosted Search Engine
-                  href: http://searxng.home
+                  href: http://searxng.home:8888
                   proxmoxNode: proxmox
                   proxmoxVMID: 133
                   proxmoxType: lxc
