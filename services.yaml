@@ -435,10 +435,10 @@
                   proxmoxType: lxc
             - BirdNet Lake:
                   icon: si-thunderbird
-                  server: dockerlake
-                  container: birdnet-go
+                  # server: dockerlake
+                  # container: birdnet-go
                   description: Wildlife Sounds - Lake Instance
-                  href: http://dockerlake.lake:8080
+                  href: http://truenaslake.lake:8081
             - Hometime:
                   icon: si-lazyvim
                   server: docker
