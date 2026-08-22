@@ -76,13 +76,13 @@
             proxmoxVMID: 122
             proxmoxType: lxc
 
-      - Patchmon:
-            href: "http://patchmon.home:3000"
-            description: Patch Management Dashboard
-            icon: "si-packer"
-            proxmoxNode: proxmox
-            proxmoxVMID: 125
-            proxmoxType: lxc
+      # - Patchmon:
+      #       href: "http://patchmon.home:3000"
+      #       description: Patch Management Dashboard
+      #       icon: "si-packer"
+      #       proxmoxNode: proxmox
+      #       proxmoxVMID: 125
+      #       proxmoxType: lxc
 
 - Network:
       - Unifi Controller:
