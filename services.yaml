@@ -367,6 +367,7 @@
                         custom:
                         - state: sensor.total_power
                         - state: sensor.total_energy_today
+                          label: Energy Today
             - Immich:
                   href: "http://immich.home:2283"
                   description: Photo Management
