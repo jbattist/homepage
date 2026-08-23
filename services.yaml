@@ -353,6 +353,20 @@
                   # container: deepseek-harness
 
       - Applications:
+            - Home Assistant:
+                  href: http://homeassistant.home:8123
+                  description: Home Assistant
+                  icon: "si-homeassistant"
+                  proxmoxNode: proxmox
+                  proxmoxVMID: 136
+                  proxmoxType: VM
+                  widget:
+                        type: homeassistant
+                        url: http://homeassistant.home:8123
+                        key: {{HOMEPAGE_VAR_HOME_ASSISTANT}}
+                        custom:
+                        - state: sensor.total_power
+                        - state: sensor.total_energy_today
             - Immich:
                   href: "http://immich.home:2283"
                   description: Photo Management
