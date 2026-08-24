@@ -354,20 +354,20 @@
 
       - Applications:
             - Home Assistant:
-                  href: http://homeassistant.home:8123
+                  href: http://homeassistant.home
                   description: Home Assistant
                   icon: "si-homeassistant"
                   proxmoxNode: proxmox
                   proxmoxVMID: 136
-                  proxmoxType: VM
                   widget:
                         type: homeassistant
-                        url: http://homeassistant.home:8123
+                        url: http://homeassistant.home
                         key: {{HOMEPAGE_VAR_HOME_ASSISTANT}}
                         custom:
-                        - state: sensor.total_power
-                        - state: sensor.total_energy_today
-                          label: Energy Today
+                        - state: sensor.smart_wi_fi_power_strip_power_3
+                          label: Proxmox Power
+                        - state: sensor.smart_wi_fi_power_strip_power_6
+                          label: Heimdallama Power
             - Immich:
                   href: "http://immich.home:2283"
                   description: Photo Management
