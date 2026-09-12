@@ -313,6 +313,10 @@
                   href: "http://heimdallama.home:20128"
                   description: Local LLM Router
                   icon: "si-ionic"
+            - 9router:
+                  href: "http://heimdallama.home:22222"
+                  description: Local LLM Router
+                  icon: "si-roots"
             # - OpenRouter:
             #       href: "https://openrouter.ai/activity"
             #       description: Cloud LLM Router
@@ -331,6 +335,10 @@
             #       description: Paperclip Agent Orchestrator
             #       icon: "si-purescript"
             #       ping: paperclip.home
+            - Openhands:
+                  href: "http://openhands.home:8000"
+                  description: Coding agents
+                  icon: "si-probot"
             - Hermes Dashboard:
                   href: "http://hermes.home:9119"
                   description: Hermes Agent Dashboard
