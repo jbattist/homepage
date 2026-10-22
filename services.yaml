@@ -316,6 +316,10 @@
                   ping: hermes.home
                   # proxmoxNode: proxmox
                   # proxmoxVMID: 114
+            - Pi:
+                  href: http://hermes.home:30141
+                  description: Pi Harness
+                  icon: "si-pi"
             - OmniRoute:
                   href: "http://heimdallama.home:20128"
                   description: Local LLM Router
@@ -438,6 +442,12 @@
                   proxmoxNode: proxmox
                   proxmoxVMID: 133
                   proxmoxType: lxc
+
+            - Change Detection:
+                  href: http://changedetection.home:5000
+                  Description: Detect website changes 
+                  icon: "si-openstreetmap"
+                  ping: changedetection.home
 
 
       - Misc:
