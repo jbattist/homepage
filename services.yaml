@@ -341,11 +341,11 @@
                   description: Spacebot Agent Orchestrator
                   icon: "si-starship"
                   ping: spacebot.home
-            # - Paperclip:
-            #       href: "http://paperclip.home:3100"
-            #       description: Paperclip Agent Orchestrator
-            #       icon: "si-purescript"
-            #       ping: paperclip.home
+            - Paperclip:
+                  href: "http://paperclip.home:3100"
+                  description: Paperclip Agent Orchestrator
+                  icon: "si-purescript"
+                  ping: paperclip.home
             - Openhands:
                   href: "http://openhands.home:8000"
                   description: Coding agents
