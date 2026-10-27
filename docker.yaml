@@ -6,17 +6,14 @@ docker:
   host: docker.home
   port: 2375
 
-dockerpi:
-  host: dockerpi.home
+sheipnir:
+  host: sheipnir.home
   port: 2375
 
 dockerlake:
   host: dockerlake.lake
   port: 2375
 
-tensor:
-  host: tensor.home
-  port: 2375
   
 heimdallama:
   host: heimdallama.home

@@ -1,0 +1,23 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/docker/
+
+docker:
+  host: docker.home
+  port: 2375
+
+dockerpi:
+  host: dockerpi.home
+  port: 2375
+
+dockerlake:
+  host: dockerlake.lake
+  port: 2375
+
+tensor:
+  host: tensor.home
+  port: 2375
+  
+heimdallama:
+  host: heimdallama.home
+  port: 2375

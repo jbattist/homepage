@@ -98,7 +98,7 @@
             href: "http://192.168.1.10:5380"
             description: DHCP and DNS Server
             icon: "si-dash"
-            server: dockerpi
+            server: sheipnir
             container: technitium-dns1
             widget:
                 type: technitium
@@ -138,18 +138,6 @@
             description: Home Network Visualizer
             href: http://homelable.home:3000
 
-      - Grafana:
-            href: "http://tensor.home:3000"
-            description: Observability Dashboards
-            icon: si-grafana
-            widget:
-                type: grafana
-                version: 2 # optional, default is 1
-                url: http://tensor.home:3000
-                username: "admin"
-                password: "{{HOMEPAGE_VAR_PASSWORD}}"
-                fields: ["dashboards", "datasources", "totalalerts"]
-
       - Pulse:
             href: "http://pulse.home:7655"
             description: Network Monitoring
@@ -186,13 +174,6 @@
                       - field: byStatus.warning
                         label: Alerts
                         format: number
-      - Victoria Logs:
-            href: "http://tensor.home:9428/select/vmui"
-            description: Victoria Logs
-            icon: "si-victoriametrics"
-            # server: tensor
-            # container: victoria-logs
-
 
 - Arr:
       - Jellyfin:
