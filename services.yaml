@@ -13,6 +13,10 @@
                 password: "{{HOMEPAGE_VAR_PROXMOX}}"
                 verify_ssl: false
                 node: proxmox
+      - Ultimate Updater:
+            href: "https://proxmox.home:8765/"
+            icon: "si-stackblitz"
+            descripion: Ultimate Updater Dashboard
 
       - Proxmox Backup:
             href: "http://backup.home:8007"
@@ -62,11 +66,7 @@
                 key: "{{HOMEPAGE_VAR_ARCANE}}"
                 fields: ["running", "stopped", "image_updates", "images_unused"]
 
-      - Borg:
-            href: "http://borg.home:8081"
-            description: Borg Backup Server
-            icon: "si-borgbackup"
-            ping: borg.home
+
 
       - Ansible:
             href: "http://semaphore.home:3000"
@@ -131,7 +131,12 @@
                 url: "http://truenaslake.lake:8080/"
                 bitratePrecision: 2
                 key: "{{HOMEPAGE_VAR_SPEEDTEST_LAKE}}"
-
+      - Borg:
+            href: "http://borg.home:8081"
+            description: Borg Backup Server
+            icon: "si-borgbackup"
+            ping: borg.home
+            
       - Homelable:
             icon: si-homebridge
             ping: homelable.home
